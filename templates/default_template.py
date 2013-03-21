@@ -95,14 +95,14 @@ def header(node):
 	<body id="top">
 		<header class="container_12">
 			<div class="grid_7"><a href="/" title="home page">
-				<hgroup class="opacity rounded">
+				<hgroup class="rounded">
 					<h1>''' + SITE_NAME + '''</h1>
 					<h2>''' + DESC + '''</h2>
 				</hgroup>
 				</a>
 			</div>
 			<div class="grid_5 clearfix">
-				<section id="contact" class="opacity rounded">
+				<section id="contact" class="rounded">
 					Fraz. Martignilas n.1 <br/>
 					33100 Resia, Udine, IT<br/><br/>
 					Tel. +39 1234567890<br/>
@@ -114,8 +114,8 @@ def header(node):
 
 		<div class="container_12 clearfix">
 			<div class="grid_7">
-				<section class="opacity rounded">
-					<article>
+				<section>
+					<article class="opacity rounded">
 '''
 def footer(node):
     """Build the footer and return it to a string."""
@@ -125,7 +125,7 @@ def footer(node):
 				</section>
 			</div>
 			<div class="grid_5">	
-				<nav class="opacity rounded navigator">
+				<nav class="rounded navigator">
 					''' + menu(node) + '''
 				</nav>
 				<div class="opacity rounded twitter">
@@ -136,7 +136,7 @@ def footer(node):
 			<div class="clear"></div>
 		</div>
 		<div class="container_12 clearfix">
-			<footer class="grid_12 opacity rounded">
+			<footer class="grid_12 rounded">
 					<p>&copy; ''' + str(current_time.year) + ''' <a href="http://luca.postregna.name" title="lucapost blog">lucapost</a> | <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/">license</a> | <a href="/privacy.html">privacy</a> | edit: ''' + time.strftime("%Y%m%d %I:%M:%S %p", node.page.last_edit) + '''</p>
 			</footer>
 			<div class="clear"></div>

@@ -6,4 +6,4 @@ I nostri ospiti sono alla ricerca del silenzio della natura, amano gli animali e
 
 La struttura è ideale per ospitare famiglie con bambini ed animali.
 
-É ideale come punto di partenza per escursioni in montagna a piedi o in bicicletta, e per bagni rigeneranti nei torrenti della Val Resia.
+É un ottimo punto di partenza per escursioni in montagna a piedi o in bicicletta, e per bagni rigeneranti nei torrenti della Val Resia.
