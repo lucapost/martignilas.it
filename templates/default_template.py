@@ -95,26 +95,24 @@ def header(node):
 	</head>
 	<body id="top">
 		<header class="container_12">
-			<div class="grid_7"><a href="/" title="home page">
+			<div class="grid_8"><a href="/" title="home page">
 				<hgroup class="rounded">
 					<h1>''' + SITE_NAME + '''</h1>
 					<h2>''' + DESC + '''</h2>
+					<img class="logo" src="/img/homelogo.png" alt="logo casa">
 				</hgroup>
 				</a>
 			</div>
-			<div class="grid_5 clearfix">
-				<section id="contact" class="rounded">
-					Fraz. Martignilas n.1 <br/>
-					33100 Resia, Udine, IT<br/><br/>
-					Tel. +39 1234567890<br/>
-					Email. pdilena@tin.it<p>
-				</section>
+			<div class="grid_4 clearfix">
+				<nav class="rounded navigator">
+					''' + menu(node) + '''
+				</nav>
 			</div>
 			<div class="clear"></div>
 		</header>		
 
 		<div class="container_12 clearfix">
-			<div class="grid_7">
+			<div class="grid_8">
 				<section>
 					<article class="opacity rounded">
 '''
@@ -125,10 +123,10 @@ def footer(node):
 					</article>
 				</section>
 			</div>
-			<div class="grid_5">	
-				<nav class="rounded navigator">
-					''' + menu(node) + '''
-				</nav>
+			<div class="grid_4">	
+				<section id="contact" class="rounded">
+					mappa quadrata
+				</section>
 				<div class="opacity rounded twitter">
 					<a class="twitter-timeline" href="https://twitter.com/lucapost" data-widget-id="311855027230736384">Tweets by @lucapost</a>
 					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>

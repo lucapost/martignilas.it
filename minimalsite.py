@@ -296,7 +296,7 @@ def has_index(pathname):
     for lang in list(template.SRC_EXT.keys()):
         if os.path.isfile(pathname + "/index." + template.SRC_EXT[lang]):
             return True
-    return False
+    return True
 
 def import_template(pathname):
     """Load the python module in the provided file name as a template."""
