@@ -99,7 +99,6 @@ def header(node):
 				<hgroup class="rounded">
 					<h1>''' + SITE_NAME + '''</h1>
 					<h2>''' + DESC + '''</h2>
-					<img class="logo" src="/img/homelogo.png" alt="logo casa">
 				</hgroup>
 				</a>
 			</div>
