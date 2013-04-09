@@ -26,21 +26,37 @@ h1, h2, h3, h4, h5, h6 {
 	color: #73519D;
 }
 
+a:hover {
+	text-decoration: underline;
+}
+
+ul li.current {
+	background-color: red;
+	background: url('/img/bird.png') 0px 2px no-repeat;
+}
+
+ul li.current a:hover {
+	text-decoration: none;
+}
+
 .rounded {
 	border: 1px solid black;
 	border-radius: 10px;
 }
-
+/*
 .container_12 {
 	background-image:url('/img/farfalla.png');
-}
+}*/
 
 header {
 	padding: 20px 0 20px 0;
-	background-image:url('/img/farfalla.png');
 }
 
 header a {
+	text-decoration: none;
+}
+
+header a:hover {
 	text-decoration: none;
 }
 
@@ -49,7 +65,8 @@ hgroup {
 	padding: 20px 80px 0 80px;
 	height: 138px;
 	border-top-left-radius: 80px;
-	background: url('/img/op.png');
+	background: url(/img/onda.png) no-repeat 380px 20px, url(/img/op.png);
+	background-size: 200px 120px, auto;
 }
 
 h1 {	
@@ -67,6 +84,18 @@ h2 {
 
 h3 {
 	text-transform: none;
+}
+
+nav {
+	text-transform: uppercase;
+}
+
+nav ul {
+	list-style:none;
+}
+
+nav ul li {
+	padding: 0 0 0 60px;
 }
 
 #contact {
@@ -97,7 +126,7 @@ img .logo {
 .navigator {
 	height: 98px; 
 	background: url('/img/op.png');
-	padding: 40px 0 20px 80px;
+	padding: 40px 0 20px 0px;
 }
 
 .twitter {

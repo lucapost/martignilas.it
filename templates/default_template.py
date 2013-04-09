@@ -55,11 +55,11 @@ def menu_(node, cur_node, node_prefix = PREFIX, indent = ''):
     for child in sorted(node.children, key=lambda n: n.page.src_pathname):
         if child.page.dst_file.startswith("index.") or child.page.src_file in HIDDEN:
             continue
-        menu_code += indent + '<li class="level-' + str(child.page.level) + '"><a '
+        menu_code += indent + '<li class="level-' + str(child.page.level)
         if(child == cur_node
         or (cur_node.page.dst_file.startswith("index.") and child == cur_node.parent)):
-            menu_code += 'class="current" '
-        menu_code += 'href="' + node_prefix + child.page.dst_file
+            menu_code += ' current'
+        menu_code += '"><a href="' + node_prefix + child.page.dst_file
         if child.children:
             menu_code += "/index." + DST_EXT + '">'    + child.page.name + '</a>\n'
             menu_(child, cur_node, node_prefix + child.page.dst_file + '/', indent + '\t')
@@ -95,7 +95,7 @@ def header(node):
 	</head>
 	<body id="top">
 		<header class="container_12">
-			<div class="grid_8"><a href="/" title="home page">
+			<div class="grid_8 nome"><a href="/" title="home page">
 				<hgroup class="rounded">
 					<h1>''' + SITE_NAME + '''</h1>
 					<h2>''' + DESC + '''</h2>
