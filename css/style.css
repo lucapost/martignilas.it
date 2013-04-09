@@ -98,6 +98,10 @@ nav ul li {
 	padding: 0 0 0 60px;
 }
 
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
 #contact {
 	height: 138px;
 	padding: 40px 80px 0 80px;
