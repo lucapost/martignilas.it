@@ -1,7 +1,7 @@
 ### contatti
 
-Casa vacanze Martignilas
-Fraz. Martignilas n. 1
+Casa vacanze Martignilas <br/>
+Fraz. Martignilas n. 1 <br/>
 33010 Resia, Udine - Italia
 
 Tel: +390432672131, +393389456208
