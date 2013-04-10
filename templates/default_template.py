@@ -11,28 +11,30 @@ URL = "http://martignilas.it"
 PREFIX = "/"
 HOME = "home"
 PATH_SEPARATOR = '/'
-SRC_EXT = {"markdown": "md", "textile": "tt", "plain": "txt"}
+SRC_EXT = {"markdown": "md", "textile": "tt"}
 DST_EXT = "html"
 HIDDEN = set(["404.md"])
 menu_code = ''
-PAGES = {SRC + "/index.md": ("home page", "wireless mesh network libera e decentralizzata in friuli venezia giulia"),
-	 SRC + "/30_rete/index.md": ("rete", "esempi di configurazione dei nodi della rete"),
-	 SRC + "/30_rete/30_servizi.md": ("rete", "elenco dei servizi disponibili nelle rete"),
-	 SRC + "/70_contatti.md": ("contatti", "contattare via email twitter facebook googleplus irc commenti"),
-	 SRC + "/50_links.md": ("links", "collegamenti a siti amici")}
+PAGES = {SRC + "/01_index.md": ("casa", "sito internet della casa vacanze Martignilas"),
+	 SRC + "/10_alloggi.md": ("alloggi", "descrizione della casa"),
+	 SRC + "/20_informazioni.md": ("informazioni", "eventi e cose da visitare"),
+	 SRC + "/30_contatti.md": ("contatti", "comunicare con il propietario")}
 
 current_time = datetime.datetime.now()
 
 def get_page_contents(node):
     """Return page title and description from the global variable pages if a
     match with current node page.src_file is found.
-    """ 
+    """  
+#    print("GOT IT!")
+#    print((SITE_NAME + ' | ' + PAGES[node.page.src_pathname][0], PAGES[node.page.src_pathname][1], PAGES[node.page.src_pathname][0]))
 
     try:
         return (SITE_NAME + ' | ' + PAGES[node.page.src_pathname][0], \
-            PAGES[node.page.src_pathname][1])
+            PAGES[node.page.src_pathname][1], \
+            PAGES[node.page.src_pathname][0])
     except KeyError:
-        return ('%%%TITLE%%%', '')
+        return ('%%%TITLE%%%', '', '')
 
 def menu(node):
     """Generate a hierarchical menu."""
@@ -53,7 +55,8 @@ def menu_(node, cur_node, node_prefix = PREFIX, indent = ''):
 
     menu_code += indent + '<ul>\n'
     for child in sorted(node.children, key=lambda n: n.page.src_pathname):
-        if child.page.dst_file.startswith("index.") or child.page.src_file in HIDDEN:
+#        if child.page.dst_file.startswith("index.") or child.page.src_file in HIDDEN:
+        if child.page.src_file in HIDDEN:
             continue
         menu_code += indent + '<li class="level-' + str(child.page.level)
         if(child == cur_node
@@ -68,10 +71,47 @@ def menu_(node, cur_node, node_prefix = PREFIX, indent = ''):
             menu_code += '">'   + child.page.name + '</a></li>\n'
     menu_code += indent + '</ul>\n'
 
+
+#def menu(node):
+#    """Generate a hierarchical menu."""
+#
+#    global menu_code
+#
+#    menu_code = ''
+#    root = node
+#    while root.parent:
+#        root = root.parent
+#    menu_(root, node)
+#    return menu_code
+#
+#def menu_(node, cur_node, node_prefix = PREFIX, indent = ''):
+#    """Auxiliary recursive function for menu generation."""
+#
+#    global menu_code
+#    (title, description, linkname) = get_page_contents(node)
+#
+#    menu_code += indent + '<ul>\n'
+#    for child in sorted(node.children, key=lambda n: n.page.src_pathname):
+#        if child.page.dst_file.startswith("index.") or child.page.src_file in HIDDEN:
+#            continue
+#        menu_code += indent + '<li class="level-' + str(child.page.level)
+#        if(child == cur_node
+#        or (cur_node.page.dst_file.startswith("index.") and child == cur_node.parent)):
+#            menu_code += ' current'
+#        menu_code += '"><a href="' + node_prefix + child.page.dst_file
+#        if child.children:
+#            menu_code += "/index." + DST_EXT + '">'    + child.page.name + '</a>\n'
+#            menu_(child, cur_node, node_prefix + child.page.dst_file + '/', indent + '\t')
+#            menu_code += indent + '</li>\n'
+#        else:
+#            menu_code += '">' + linkname + '</a></li>\n'
+#    menu_code += indent + '</ul>'
+#
 def header(node):
     """Build the header and return it to a string."""
 
-    (title, description) = get_page_contents(node)
+    (title, description, linkname) = get_page_contents(node)
+
     return '''<!DOCTYPE html>
 	<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="it"> <![endif]-->
 	<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="it"> <![endif]-->
