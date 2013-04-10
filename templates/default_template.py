@@ -27,7 +27,7 @@ def get_page_contents(node):
     match with current node page.src_file is found.
     """  
 #    print("GOT IT!")
-#    print((SITE_NAME + ' | ' + PAGES[node.page.src_pathname][0], PAGES[node.page.src_pathname][1], PAGES[node.page.src_pathname][0]))
+    print(SITE_NAME + ' | ' + PAGES[node.page.src_pathname][0], PAGES[node.page.src_pathname][1], PAGES[node.page.src_pathname][0])
 
     try:
         return (SITE_NAME + ' | ' + PAGES[node.page.src_pathname][0], \
