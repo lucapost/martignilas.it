@@ -15,7 +15,7 @@ SRC_EXT = {"markdown": "md", "textile": "tt"}
 DST_EXT = "html"
 HIDDEN = set(["404.md"])
 menu_code = ''
-PAGES = {SRC + "/01_index.md": ("casa", "sito internet della casa vacanze Martignilas"),
+PAGES = {SRC + "/01_index.md": ("home", "sito internet della casa vacanze Martignilas"),
 	 SRC + "/10_alloggi.md": ("alloggi", "descrizione della casa"),
 	 SRC + "/20_informazioni.md": ("informazioni", "eventi e cose da visitare"),
 	 SRC + "/30_contatti.md": ("contatti", "comunicare con il propietario")}
@@ -28,7 +28,7 @@ def get_page_contents(node):
     """  
     try:
         return (SITE_NAME + ' | ' + PAGES[node.page.src_pathname][0], \
-            PAGES[node.page.src_pathname][1], \
+            PAGES[node.page.src_pathname][1],
             PAGES[node.page.src_pathname][0])
     except KeyError:
         return ('%%%TITLE%%%', '', '')
@@ -63,8 +63,11 @@ def menu_(node, cur_node, node_prefix = PREFIX, indent = ''):
             menu_code += "/index." + DST_EXT + '">'    + child.page.name + '</a>\n'
             menu_(child, cur_node, node_prefix + child.page.dst_file + '/', indent + '\t')
             menu_code += indent + '</li>\n'
-        else:
-            menu_code += '">'   + child.page.name + '</a></li>\n'
+	else:
+	    if child.page.name == 'index':
+	        menu_code += '">casa</a></li>\n'
+            else:
+	        menu_code += '">'   + child.page.name + '</a></li>\n'
     menu_code += indent + '</ul>\n'
 
 def header(node):
@@ -113,7 +116,7 @@ def header(node):
 		<div class="container_12 clearfix">
 			<div class="grid_8">
 				<section>
-					<article class="opacity rounded">
+					<article class="opacity rounded ''' + linkname + '''">
 '''
 def footer(node):
     """Build the footer and return it to a string."""
@@ -123,9 +126,9 @@ def footer(node):
 				</section>
 			</div>
 			<div class="grid_4">	
-				<section id="contact" class="rounded">
+<!--				<section class="rounded maps">
 					mappa quadrata
-				</section>
+				</section> -->
 				<div class="opacity rounded twitter">
 					<a class="twitter-timeline" href="https://twitter.com/lucapost" data-widget-id="311855027230736384">Tweets by @lucapost</a>
 					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -135,7 +138,7 @@ def footer(node):
 		</div>
 		<div class="container_12 clearfix">
 			<footer class="grid_12 rounded">
-					<p>&copy; ''' + str(current_time.year) + ''' <a href="http://luca.postregna.name" title="lucapost blog">lucapost</a> | <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/">license</a> | <a href="/privacy.html">privacy</a> | edit: ''' + time.strftime("%Y%m%d %I:%M:%S %p", node.page.last_edit) + '''</p>
+				<p>&copy; ''' + str(current_time.year) + ''' <a href="http://luca.postregna.name" title="lucapost blog">lucapost</a> | <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/">license</a> | <a href="/privacy.html">privacy</a> | edit: ''' + time.strftime("%Y%m%d %I:%M:%S %p", node.page.last_edit) + '''</p>
 			</footer>
 			<div class="clear"></div>
 		</div>	

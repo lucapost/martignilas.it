@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "HelveticaNeue-Thin";
 	text-transform: uppercase;
 	color: #73519D;
+	font-weight:bold;
 }
 
 a:hover {
@@ -43,10 +44,6 @@ ul li.current a:hover {
 	border: 1px solid black;
 	border-radius: 10px;
 }
-/*
-.container_12 {
-	background-image:url('/img/farfalla.png');
-}*/
 
 header {
 	padding: 20px 0 20px 0;
@@ -66,19 +63,17 @@ hgroup {
 	height: 138px;
 	border-top-left-radius: 80px;
 	background: url(/img/onda.png) no-repeat 380px 20px, url(/img/op.png);
-	background-size: 200px 120px, auto;
+	background-size: 220px 120px, auto;
 }
 
 h1 {	
 	font-size: 50px;
-	font-weight:bold;
 	line-height: 80px;
 	margin:0px;
 }
 
 h2 {	
 	font-size: 20px;
-	font-weight:bold;
 	line-height: 20px;
 }
 
@@ -95,26 +90,46 @@ nav ul {
 }
 
 nav ul li {
-	padding: 0 0 0 60px;
+	padding: 0 0 0 50px;
 }
 
 nav ul li a:hover {
 	text-decoration: underline;
 }
 
-#contact {
+.maps {
 	height: 138px;
 	padding: 40px 80px 0 80px;
 	line-height: 20px;
 	background: url('/img/op.png');
-/*	border-top-right-radius: 80px;*/
 }
 
 article {
 	padding: 39px 79px 20px 79px;
-	background: url('/img/op.png');
 	border: 1px solid black;
 	border-radius: 10px;
+	background: url('/img/op.png');
+}
+
+article.home {
+	background: url(/img/pages/home.png) 10px 10px repeat, url('/img/op.png');
+	background-size: 600px auto, auto;
+}
+
+
+article.alloggi {
+	background: url(/img/pages/bed.png) 10px 10px repeat, url('/img/op.png');
+	background-size: 600px auto, auto;
+}
+
+article.informazioni {
+	background: url(/img/pages/bussola.png) 10px 10px repeat, url('/img/op.png');
+	background-size: 600px auto, auto;
+}
+
+article.contatti {
+	background: url(/img/pages/contacts.png) 10px 10px repeat, url('/img/op.png');
+	background-size: 600px auto, auto;
 }
 
 img {
@@ -127,6 +142,7 @@ img .logo {
 	height: 50px;
 	width: 50px;
 }
+
 .navigator {
 	height: 98px; 
 	background: url('/img/op.png');
@@ -136,14 +152,14 @@ img .logo {
 .twitter {
 	opacity: .92;
 	background-color: white;
-	margin: 20px 0 0 0;
+	margin: 0;
 }
 
 footer {
 	margin: 20px 0 20px 0;
-	background: url('/img/op.png');
+	background: url(/img/ondasx.png) no-repeat 10px 10px, url(/img/ondadx.png) no-repeat 720px 10px, url(/img/op.png);
+	background-size: 210px 40px, 210px 40px, auto;
 	padding: 20px 0 0 0;
 	text-align: center;
 	height: 38px;
 }
-
