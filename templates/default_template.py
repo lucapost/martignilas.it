@@ -13,7 +13,7 @@ HOME = "home"
 PATH_SEPARATOR = '/'
 SRC_EXT = {"markdown": "md", "textile": "tt"}
 DST_EXT = "html"
-HIDDEN = set(["404.md"])
+HIDDEN = set(["404.md", "privacy.md"])
 menu_code = ''
 PAGES = {SRC + "/01_index.md": ("home", "sito internet della casa vacanze Martignilas"),
 	 SRC + "/10_alloggi.md": ("alloggi", "descrizione della casa"),
