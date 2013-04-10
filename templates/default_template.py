@@ -26,9 +26,6 @@ def get_page_contents(node):
     """Return page title and description from the global variable pages if a
     match with current node page.src_file is found.
     """  
-#    print("GOT IT!")
-    print(SITE_NAME + ' | ' + PAGES[node.page.src_pathname][0], PAGES[node.page.src_pathname][1], PAGES[node.page.src_pathname][0])
-
     try:
         return (SITE_NAME + ' | ' + PAGES[node.page.src_pathname][0], \
             PAGES[node.page.src_pathname][1], \
@@ -55,7 +52,6 @@ def menu_(node, cur_node, node_prefix = PREFIX, indent = ''):
 
     menu_code += indent + '<ul>\n'
     for child in sorted(node.children, key=lambda n: n.page.src_pathname):
-#        if child.page.dst_file.startswith("index.") or child.page.src_file in HIDDEN:
         if child.page.src_file in HIDDEN:
             continue
         menu_code += indent + '<li class="level-' + str(child.page.level)
@@ -71,42 +67,6 @@ def menu_(node, cur_node, node_prefix = PREFIX, indent = ''):
             menu_code += '">'   + child.page.name + '</a></li>\n'
     menu_code += indent + '</ul>\n'
 
-
-#def menu(node):
-#    """Generate a hierarchical menu."""
-#
-#    global menu_code
-#
-#    menu_code = ''
-#    root = node
-#    while root.parent:
-#        root = root.parent
-#    menu_(root, node)
-#    return menu_code
-#
-#def menu_(node, cur_node, node_prefix = PREFIX, indent = ''):
-#    """Auxiliary recursive function for menu generation."""
-#
-#    global menu_code
-#    (title, description, linkname) = get_page_contents(node)
-#
-#    menu_code += indent + '<ul>\n'
-#    for child in sorted(node.children, key=lambda n: n.page.src_pathname):
-#        if child.page.dst_file.startswith("index.") or child.page.src_file in HIDDEN:
-#            continue
-#        menu_code += indent + '<li class="level-' + str(child.page.level)
-#        if(child == cur_node
-#        or (cur_node.page.dst_file.startswith("index.") and child == cur_node.parent)):
-#            menu_code += ' current'
-#        menu_code += '"><a href="' + node_prefix + child.page.dst_file
-#        if child.children:
-#            menu_code += "/index." + DST_EXT + '">'    + child.page.name + '</a>\n'
-#            menu_(child, cur_node, node_prefix + child.page.dst_file + '/', indent + '\t')
-#            menu_code += indent + '</li>\n'
-#        else:
-#            menu_code += '">' + linkname + '</a></li>\n'
-#    menu_code += indent + '</ul>'
-#
 def header(node):
     """Build the header and return it to a string."""
 
