@@ -37,3 +37,7 @@ Dopo che avrete effettuato la prenotazione, riceverete una e-mail di conferma co
 #### Contatti:
 
 MyFairItaly.com è responsabile della gestione dei dati personali. Qualora abbiate suggerimenti od osservazioni da sottoporre alla nostra attenzione, siete pregati di inviarci un’e-mail all’indirizzo di posta elettronica: "info@myfairitaly.com(email info myfairitaly)":mailto:info@myfairitaly.com. Siamo autorizzati in ogni momento a cambiare le modalità di raccolta, di trasmissione e di elaborazione delle informazioni personali e di qualunque altro genere di informazione a nostra totale discrezione. La presente Informativa sulla privacy, quindi, potrà essere modificata di tanto in tanto con lo scopo di riflettere al meglio i cambiamenti più recenti.
+
+</article>
+<figure class="suffix_1 grid_6 omega">
+</figure>

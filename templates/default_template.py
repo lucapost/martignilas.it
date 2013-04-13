@@ -97,49 +97,39 @@ def header(node):
 		<link rel="icon" type="image/png" href="'''+ PREFIX +'''img/iuliinetlogo.png">
 	</head>
 	<body id="top">
-		<header class="container_12">
-			<div class="grid_8 nome"><a href="/" title="home page">
-				<hgroup class="rounded">
-					<h1>''' + SITE_NAME + '''</h1>
-					<h2>''' + DESC + '''</h2>
+		<div class="container_24">
+			<header class="push_3 grid_18">
+				<hgroup class="prefix_1 grid_7 alpha">
+						<a href="/" title="home page">
+							<h1>''' + SITE_NAME + '''</h1>
+							<h2>''' + DESC + '''</h2>
+						</a>
 				</hgroup>
-				</a>
-			</div>
-			<div class="grid_4 clearfix">
-				<nav class="rounded navigator">
-					''' + menu(node) + '''
+				<nav class="suffix_1 grid_9 omega">
+						''' + menu(node) + '''
 				</nav>
-			</div>
+			</header>
 			<div class="clear"></div>
-		</header>		
-
-		<div class="container_12 clearfix">
-			<div class="grid_8">
+		</div>		
+		<div class="container_24">
+			<div class="push_3 grid_18 '''+ linkname +''' id="box"">
 				<section>
-					<article class="opacity rounded ''' + linkname + '''">
+					<article class="prefix_1 grid_9 alpha">
 '''
 def footer(node):
     """Build the footer and return it to a string."""
 
-    return '''			
-					</article>
+    return '''				
 				</section>
-			</div>
-			<div class="grid_4">	
-<!--				<section class="rounded maps">
-					mappa quadrata
-				</section> -->
-				<div class="opacity rounded twitter">
-					<a class="twitter-timeline" href="https://twitter.com/lucapost" data-widget-id="311855027230736384">Tweets by @lucapost</a>
-					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-				</div>
 			</div>
 			<div class="clear"></div>
 		</div>
-		<div class="container_12 clearfix">
-			<footer class="grid_12 rounded">
+		<div class="container_24">
+			<div class="push_3 grid_18">
+				<footer class="prefix_1 grid_16 suffix_1 alpha omega">
 				<p>&copy; ''' + str(current_time.year) + ''' <a href="http://luca.postregna.name" title="lucapost blog">lucapost</a> | <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/">license</a> | <a href="/privacy.html">privacy</a> | edit: ''' + time.strftime("%Y%m%d %I:%M:%S %p", node.page.last_edit) + '''</p>
-			</footer>
+				</footer>
+			</div>
 			<div class="clear"></div>
 		</div>	
 	  	<script src="'''+ PREFIX +'''js/jquery.js"></script> 

@@ -11,7 +11,7 @@
 }
 
 html, body {
-        font-size: 16px;
+        font-size: 15px;
         line-height: 20px;
         width: 100%;
         height: 100%;
@@ -41,22 +41,10 @@ a:active {
 	color: #73519D;
 }
 
-ul li.current {
-	background-color: red;
-	background: url('/img/bird.png') 0px 2px no-repeat;
-}
-
-ul li.current a:hover {
-	text-decoration: none;
-}
-
-.rounded {
-	border: 1px solid black;
-	border-radius: 10px;
-}
-
 header {
+	margin-top: 20px;
 	padding: 20px 0 20px 0;
+	background: url('/img/op.png');
 }
 
 header a {
@@ -67,28 +55,18 @@ header a:hover {
 	text-decoration: none;
 }
 
-hgroup {
-	background-color: white;
-	padding: 20px 80px 0 80px;
-	height: 138px;
-	border-top-left-radius: 80px;
-	background: url(/img/onda.png) no-repeat 380px 20px, url(/img/op.png);
-	background-size: 220px 120px, auto;
-}
-
 h1 {	
-	font-size: 50px;
+	font-size: 46px;
 	line-height: 80px;
 	margin:0px;
 }
 
 h2 {	
 	font-size: 20px;
-	line-height: 20px;
 }
 
 h3 {
-	text-transform: none;
+	text-transform: capitalize;
 }
 
 nav {
@@ -96,6 +74,7 @@ nav {
 }
 
 nav ul {
+	margin-top: 20px;
 	list-style:none;
 }
 
@@ -107,68 +86,54 @@ nav ul li a:hover {
 	text-decoration: underline;
 }
 
-.maps {
-	height: 138px;
-	padding: 40px 80px 0 80px;
-	line-height: 20px;
-	background: url('/img/op.png');
+nav ul li.current {
+	background-color: red;
+	background: url('/img/bird.png') 0px 4px no-repeat;
+}
+
+nav ul li.current a:hover {
+	text-decoration: none;
 }
 
 article {
-	padding: 39px 79px 20px 79px;
-	border: 1px solid black;
-	border-radius: 10px;
-	background: url('/img/op.png');
-}
-
-article.home {
-	background: url(/img/pages/home.png) 10px 10px repeat, url('/img/op.png');
-	background-size: 600px auto, auto;
+	padding: 20px 0 20px 0;
 }
 
 
-article.alloggi {
-	background: url(/img/pages/bed.png) 10px 10px repeat, url('/img/op.png');
-	background-size: 600px auto, auto;
+.home {
+	background: url(/img/ricciolo.png) center top no-repeat, url(/img/pages/home.png) 40px 20px no-repeat, url('/img/op.png');
+	background-size: 200px auto, 390px 340px, auto;
 }
 
-article.informazioni {
-	background: url(/img/pages/bussola.png) 10px 10px repeat, url('/img/op.png');
-	background-size: 600px auto, auto;
+.alloggi {
+	background: url(/img/pages/bed.png) 40px 20px no-repeat, url('/img/op.png');
+	background-size: 390px 340px, auto;
 }
 
-article.contatti {
-	background: url(/img/pages/contacts.png) 10px 10px repeat, url('/img/op.png');
-	background-size: 600px auto, auto;
+.informazioni {
+	background: url(/img/pages/info.png) 40px 20px no-repeat, url('/img/op.png');
+	background-size: 390px 390px, auto;
+}
+
+.contatti {
+	background: url(/img/pages/contacts.png) 40px 20px no-repeat, url('/img/op.png');
+	background-size: 390px 340px, auto;
+}
+
+figure {
+	margin-top: 40px;
 }
 
 img {
-	width: 460px;
+	width: 268px;
+	border: 1px solid black;
 	opacity:100;
-}
-
-img .logo {
-	float: right;
-	height: 50px;
-	width: 50px;
-}
-
-.navigator {
-	height: 98px; 
-	background: url('/img/op.png');
-	padding: 40px 0 20px 0px;
-}
-
-.twitter {
-	opacity: .92;
-	background-color: white;
-	margin: 0;
 }
 
 footer {
 	margin: 20px 0 20px 0;
-	background: url(/img/ondasx.png) no-repeat 10px 10px, url(/img/ondadx.png) no-repeat 720px 10px, url(/img/op.png);
-	background-size: 210px 40px, 210px 40px, auto;
+	background: url(/img/ondasx.png) no-repeat 10px 10px, url(/img/ondadx.png) no-repeat 580px 10px, url(/img/op.png);
+	background-size: 120px 40px, 120px 40px, auto;
 	padding: 20px 0 0 0;
 	text-align: center;
 	height: 38px;

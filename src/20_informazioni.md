@@ -27,3 +27,8 @@ Infine, altre realtà che è possibile raggiungere entro poche decine di chilome
 
 * casa delle farfalle di Bordano, 25km, [www.farfalledibordano.it](sito della casa delle farfalle);
 * parco avventura di Sella Nevea, 33Km;
+
+</article>
+<figure class="suffix_1 grid_6 omega">
+figure
+</figure>
