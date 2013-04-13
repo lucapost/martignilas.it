@@ -102,22 +102,22 @@ article {
 
 .home {
 	background: url(/img/ricciolo.png) center top no-repeat, url(/img/pages/home.png) 40px 20px no-repeat, url('/img/op.png');
-	background-size: 200px auto, 390px 340px, auto;
+	background-size: 200px auto, 350px 340px, auto;
 }
 
 .alloggi {
 	background: url(/img/pages/bed.png) 40px 20px no-repeat, url('/img/op.png');
-	background-size: 390px 340px, auto;
+	background-size: 350px auto, auto;
 }
 
 .informazioni {
 	background: url(/img/pages/info.png) 40px 20px no-repeat, url('/img/op.png');
-	background-size: 390px 390px, auto;
+	background-size: 350px auto, auto;
 }
 
 .contatti {
 	background: url(/img/pages/contacts.png) 40px 20px no-repeat, url('/img/op.png');
-	background-size: 390px 340px, auto;
+	background-size: 350px auto, auto;
 }
 
 figure {
