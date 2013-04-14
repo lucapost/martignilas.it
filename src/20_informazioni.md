@@ -1,6 +1,8 @@
-### informazioni
+### Informazioni
 
 La casa vacanze Martignilas è situata in Val Resia, terra nella quale i nostri ospiti apprezzeranno  l'aspetto naturalistico oltre che culturale.
+
+### Dove mangiare
 
 Nelle immediate vicinanze della struttura si può gradire i servizi resi disponibili dalle numerose trattorie e ristoranti:
 
@@ -8,10 +10,16 @@ Nelle immediate vicinanze della struttura si può gradire i servizi resi dispon
 * ristorante alle alpi a Prato di Resia, 5km;
 * osteria "alla speranza" a San Giorgio di Resia, 5km.
 
+### Iniziative locali
+
 Durante il corso dell'anno sono numerose le iniziative proposte dalle molteplici associazioni del luogo:
 
 * festa dell'aglio 15 agosto http://www.resianet.org/?p=289;
 * carnevale resiano http://www.resianet.org/?page_id=24;
+
+La  casa vacanze Martignilas può essere utilizzata  nostri ospiti anche come base di partenza per escursioni a piedi ed in bicicletta per i numerosi sentieri della Valle.
+
+### Parchi e musei
 
 A pochi chilometri dalla struttura è possibile visitare alcuni musei e parchi, i più significativi sono:
 
@@ -21,9 +29,9 @@ A pochi chilometri dalla struttura è possibile visitare alcuni musei e parchi, 
 * mostra permanente "foreste, uomo, economia";
 * mostra speleologica e carsismo;
 
-La  casa vacanze Martignilas può essere utilizzata  nostri ospiti anche come base di partenza per escursioni a piedi ed in bicicletta per i numerosi sentieri della Valle.
+### A qualche km in più...
 
-Infine, altre realtà che è possibile raggiungere entro poche decine di chilometri in Friuli Venezia Giulia, in Carinzia e Slovenia sono:
+É possibile raggiungere entro poche decine di chilometri:
 
 * casa delle farfalle di Bordano, 25km, [www.farfalledibordano.it](sito della casa delle farfalle);
 * parco avventura di Sella Nevea, 33Km;

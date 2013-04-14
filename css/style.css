@@ -22,7 +22,6 @@ html, body {
 h1, h2, h3, h4, h5, h6 {
 	z-index:1;
 	font-family: "HelveticaNeue-Thin";
-	text-transform: uppercase;
 	color: #73519D;
 	font-weight:bold;
 }
@@ -31,14 +30,16 @@ h1 {
 	font-size: 46px;
 	line-height: 80px;
 	margin:0px;
+	text-transform: uppercase;
 }
 
 h2 {	
 	font-size: 20px;
+	text-transform: uppercase;
 }
 
-h3 {
-	text-transform: capitalize;
+h2 {	
+	font-size: 20px;
 }
 
 a:link {
@@ -206,7 +207,7 @@ figure li[id]:target {
 
 figure li[id]:target a {
   	position:absolute;
-  	margin: 10px 0 0 60px;
+  	margin: 30px 0 0 60px;
   	border:15px solid #fff;
   	-webkit-box-shadow:0 1px 8px #000;
   	-moz-box-shadow:0 1px 8px #000;
