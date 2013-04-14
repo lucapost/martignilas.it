@@ -100,12 +100,12 @@ def header(node):
 		<div class="container_24">
 			<header class="push_3 grid_18">
 					<div class="grid_1 alpha">&nbsp;</div>
-					<hgroup class="grid_8">
-						<a href="/" title="home page">
+					<a href="/" title="home page">
+						<hgroup class="grid_8">
 							<h1>''' + SITE_NAME + '''</h1>
 							<h2>''' + DESC + '''</h2>
-						</a>
-					</hgroup>
+						</hgroup>
+					</a>
 					<nav class="grid_4 suffix_1">
 						''' + menu(node) + '''
 					</nav>
