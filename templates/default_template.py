@@ -100,13 +100,13 @@ def header(node):
 		<div class="container_24">
 			<header class="push_3 grid_18">
 					<div class="grid_1 alpha">&nbsp;</div>
-					<hgroup class="grid_7">
+					<hgroup class="grid_8">
 						<a href="/" title="home page">
 							<h1>''' + SITE_NAME + '''</h1>
 							<h2>''' + DESC + '''</h2>
 						</a>
 					</hgroup>
-					<nav class="grid_4 suffix_2">
+					<nav class="grid_4 suffix_1">
 						''' + menu(node) + '''
 					</nav>
 					<figure class="flag">
@@ -127,7 +127,7 @@ def header(node):
 		<div class="container_24">
 			<section class="push_3 grid_18">
 				<div class="grid_1 alpha">&nbsp;</div>
-				<article class="suffix_1 grid_8 '''+ linkname +'''">
+				<article class="suffix_1 grid_9 '''+ linkname +'''">
 '''
 def footer(node):
     """Build the footer and return it to a string."""
@@ -136,9 +136,9 @@ def footer(node):
 
     html = '''\n</article>'''
     if linkname == 'casa':
-	html += '''<figure class="grid_7"><img alt="ingresso della casa" src="/images/pages/casa_fronte.jpg" title="casa martignilas" class="'''+ linkname +'''"/></figure>'''
+	html += '''<figure class="grid_6"><img alt="ingresso della casa" src="/images/pages/casa_fronte.jpg" title="casa martignilas" class="'''+ linkname +'''"/></figure>'''
     elif linkname == 'alloggi':
-	html += '''<h3>gallery</h3><nav class="grid_3 suffix_1 gallery"">
+	html += '''<h3>gallery</h3><nav class="grid_3 gallery"">
     <ul>
       <li><a href="#pic0"><img src="/images/pages/casa_fronte.jpg" alt="Picture 1"></a></li>
       <li><a href="#pic1"><img src="/images/pages/casa_fronte.jpg" alt="Picture 1"></a></li>
