@@ -144,6 +144,11 @@ figure img.casa{
 	opacity:100;
 }
 
+nav.gallery ul {
+	padding: 0;
+	margin: 0;
+}
+
 nav.gallery ul li{
 	padding: 0;
 	margin: 0;
