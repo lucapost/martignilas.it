@@ -1,4 +1,4 @@
-### Gli alloggi
+### alloggi
 
 La casa vacanze Martignilas mette a disposizione dei suoi ospiti 4/7 posti letto.
 

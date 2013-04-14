@@ -2,6 +2,7 @@ generate:
 	./minimalsite.py -t templates/default_template.py
 
 update:
+	make
 	git commit -am fix
 	git push
 
