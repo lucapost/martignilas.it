@@ -15,8 +15,8 @@ html, body {
         line-height: 20px;
         width: 100%;
         height: 100%;
-	background-image:url('/img/lavanda.jpg');
-/*	text-align: justify;*/
+	background-image:url('/images/lavanda.jpg');
+	background-attachment:fixed;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -25,6 +25,20 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 	color: #73519D;
 	font-weight:bold;
+}
+
+h1 {	
+	font-size: 46px;
+	line-height: 80px;
+	margin:0px;
+}
+
+h2 {	
+	font-size: 20px;
+}
+
+h3 {
+	text-transform: capitalize;
 }
 
 a:link {
@@ -44,7 +58,7 @@ a:active {
 header {
 	margin-top: 20px;
 	padding: 20px 0 20px 0;
-	background: url('/img/op.png');
+	background: url('/images/op.png');
 }
 
 header a {
@@ -53,20 +67,6 @@ header a {
 
 header a:hover {
 	text-decoration: none;
-}
-
-h1 {	
-	font-size: 46px;
-	line-height: 80px;
-	margin:0px;
-}
-
-h2 {	
-	font-size: 20px;
-}
-
-h3 {
-	text-transform: capitalize;
 }
 
 nav {
@@ -88,51 +88,68 @@ nav ul li a:hover {
 
 nav ul li.current {
 	background-color: red;
-	background: url('/img/bird.png') 0px 4px no-repeat;
+	background: url('/images/bird.png') 10px 4px no-repeat;
 }
 
 nav ul li.current a:hover {
 	text-decoration: none;
 }
 
-article {
-	padding: 20px 0 20px 0;
+section {
+	padding: 0 0 20px 0;
+	margin-top: 00px;
 }
 
-
 .home {
-	background: url(/img/ricciolo.png) center top no-repeat, url(/img/pages/home.png) 40px 20px no-repeat, url('/img/op.png');
-	background-size: 200px auto, 350px 340px, auto;
+	background: url(/images/pages/home.png) 20px 20px no-repeat, url('/images/op.png');
+	background-size: 350px 340px, auto;
 }
 
 .alloggi {
-	background: url(/img/pages/bed.png) 40px 20px no-repeat, url('/img/op.png');
+	background: url(/images/pages/bed.png) 20px 20px no-repeat, url('/images/op.png');
 	background-size: 350px auto, auto;
 }
 
 .informazioni {
-	background: url(/img/pages/info.png) 40px 20px no-repeat, url('/img/op.png');
+	background: url(/images/pages/info.png) 20px 20px no-repeat, url('/images/op.png');
 	background-size: 350px auto, auto;
 }
 
 .contatti {
-	background: url(/img/pages/contacts.png) 40px 20px no-repeat, url('/img/op.png');
+	background: url(/images/pages/contacts.png) 20px 20px no-repeat, url('/images/op.png');
 	background-size: 350px auto, auto;
 }
 
-figure {
-	margin-top: 40px;
+img {
+	background-color: red;
 }
 
-img {
-	width: 268px;
+figure {
+	background-color: blue;
+}
+
+figure.home img{
+	background: url('/images/op.png');
+	width: 258px;
+	height: 258px;
+	padding: 5px;
 	border: 1px solid black;
 	opacity:100;
 }
 
+figure.flag img {
+	background-color: red;
+	width: 28px;
+	height: 18px;
+	border: 0px solid black;
+	padding: 0px;
+	margin-top: 20px;
+	background-color: red;
+}
+
 footer {
 	margin: 20px 0 20px 0;
-	background: url(/img/ondasx.png) no-repeat 10px 10px, url(/img/ondadx.png) no-repeat 580px 10px, url(/img/op.png);
+	background: url(/images/ondasx.png) no-repeat 10px 10px, url(/images/ondadx.png) no-repeat 580px 10px, url(/images/op.png);
 	background-size: 120px 40px, 120px 40px, auto;
 	padding: 20px 0 0 0;
 	text-align: center;

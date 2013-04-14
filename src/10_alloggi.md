@@ -15,8 +15,3 @@ La struttura di 100mq circa si suddivide  su due piani:
 All'esterno sono  disponibili tavoli e sedie da giardino, lettini, doccia con acqua scaldata dal sole, barbeque.
 
 Il prezzo comprende tv satellitare, stoviglie, lavatrice,cucina a gas, forno elettrico, lenzuola, asciugamani, coperte, attrezzatura da giardino.
-
-</article>
-<figure class="suffix_1 grid_6 omega">
-figure
-</figure>

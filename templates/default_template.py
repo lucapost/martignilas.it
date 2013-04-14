@@ -99,29 +99,46 @@ def header(node):
 	<body id="top">
 		<div class="container_24">
 			<header class="push_3 grid_18">
-				<hgroup class="prefix_1 grid_7 alpha">
+					<div class="grid_1 alpha">&nbsp;</div>
+					<hgroup class="grid_7">
 						<a href="/" title="home page">
 							<h1>''' + SITE_NAME + '''</h1>
 							<h2>''' + DESC + '''</h2>
 						</a>
-				</hgroup>
-				<nav class="suffix_1 grid_9 omega">
+					</hgroup>
+					<nav class="grid_4 suffix_2">
 						''' + menu(node) + '''
-				</nav>
+					</nav>
+					<figure class="flag">
+						<a href="/" title="italiano">
+							<img src="/images/flag_ita.png" class="grid_1">
+						</a>
+						<a href="#" title="english">
+							<img src="/images/flag_eng.png" class="grid_1">
+						</a>
+						<a href="#" title="deutsch">
+							<img src="/images/flag_deu.png" class="grid_1">
+						</a>
+					</figure>
+					<div class="grid_1 omega">&nbsp;</div>
 			</header>
 			<div class="clear"></div>
 		</div>		
 		<div class="container_24">
-			<div class="push_3 grid_18 '''+ linkname +''' id="box"">
-				<section>
-					<article class="prefix_1 grid_9 alpha">
+			<section class="push_3 grid_18 '''+ linkname +'''">
+					<div class="grid_1 alpha">&nbsp;</div>
+					<article class="suffix_1 grid_8">
 '''
 def footer(node):
     """Build the footer and return it to a string."""
 
     return '''				
-				</section>
-			</div>
+					</article>
+					<figure class="grid_7 home">
+						<img alt="ingresso della casa" src="/images/pages/casa_fronte.jpg" title="casa martignilas" />
+					</figure>
+					<div class="grid_1 omega">&nbsp;</div>
+			</section>
 			<div class="clear"></div>
 		</div>
 		<div class="container_24">

@@ -4,7 +4,7 @@ La casa vacanze Martignilas è situata in Val Resia, terra nella quale i nostri 
 
 Nelle immediate vicinanze della struttura si può gradire i servizi resi disponibili dalle numerose trattorie e ristoranti:
 
-* baita botton d'oro a Sella Carnizza, 10km, [www.baitabottondororesia.com/](http://www.baitabottondororesia.com/ "sito internet della baita botton d oro");
+* baita botton d'oro a Sella Carnizza, 10km, [www.baitabottondororesia.com](http://www.baitabottondororesia.com "sito internet della baita botton d oro");
 * ristorante alle alpi a Prato di Resia, 5km;
 * osteria "alla speranza" a San Giorgio di Resia, 5km.
 
@@ -15,7 +15,7 @@ Durante il corso dell'anno sono numerose le iniziative proposte dalle molteplici
 
 A pochi chilometri dalla struttura è possibile visitare alcuni musei e parchi, i più significativi sono:
 
-* parco delle prealpi giuliei, [www.parcoprealpigiulie.it/](http://www.parcoprealpigiulie.it/ "sito del parco delle prealpi giulie");
+* parco delle prealpi giuliei, [www.parcoprealpigiulie.it](http://www.parcoprealpigiulie.it "sito del parco delle prealpi giulie");
 * museo dell'arrotino, [www.arrotinivalresia.it](http://www.arrotinivalresia.it "sito degli arrotini della Val Resia");
 * museo della miniera del resartico;
 * mostra permanente "foreste, uomo, economia";
@@ -27,8 +27,3 @@ Infine, altre realtà che è possibile raggiungere entro poche decine di chilome
 
 * casa delle farfalle di Bordano, 25km, [www.farfalledibordano.it](sito della casa delle farfalle);
 * parco avventura di Sella Nevea, 33Km;
-
-</article>
-<figure class="suffix_1 grid_6 omega">
-figure
-</figure>
