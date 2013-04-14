@@ -15,7 +15,7 @@ SRC_EXT = {"markdown": "md", "textile": "tt"}
 DST_EXT = "html"
 HIDDEN = set(["404.md", "privacy.md"])
 menu_code = ''
-PAGES = {SRC + "/01_index.md": ("home", "sito internet della casa vacanze Martignilas"),
+PAGES = {SRC + "/01_index.md": ("casa", "sito internet della casa vacanze Martignilas"),
 	 SRC + "/10_alloggi.md": ("alloggi", "descrizione della casa"),
 	 SRC + "/20_informazioni.md": ("informazioni", "eventi e cose da visitare"),
 	 SRC + "/30_contatti.md": ("contatti", "comunicare con il propietario")}
@@ -125,19 +125,53 @@ def header(node):
 			<div class="clear"></div>
 		</div>		
 		<div class="container_24">
-			<section class="push_3 grid_18 '''+ linkname +'''">
-					<div class="grid_1 alpha">&nbsp;</div>
-					<article class="suffix_1 grid_8">
+			<section class="push_3 grid_18">
+				<div class="grid_1 alpha">&nbsp;</div>
+				<article class="suffix_1 grid_8 '''+ linkname +'''">
 '''
 def footer(node):
     """Build the footer and return it to a string."""
 
-    return '''				
-					</article>
-					<figure class="grid_7 home">
-						<img alt="ingresso della casa" src="/images/pages/casa_fronte.jpg" title="casa martignilas" />
-					</figure>
-					<div class="grid_1 omega">&nbsp;</div>
+    (title, description, linkname) = get_page_contents(node)
+
+    html = '''\n</article>'''
+    if linkname == 'casa':
+	html += '''<figure class="grid_7"><img alt="ingresso della casa" src="/images/pages/casa_fronte.jpg" title="casa martignilas" class="'''+ linkname +'''"/></figure>'''
+    elif linkname == 'alloggi':
+	html += '''<h3>gallery</h3><nav class="grid_3 suffix_1 gallery"">
+    <ul>
+      <li><a href="#pic0"><img src="/images/pages/casa_fronte.jpg" alt="Picture 1"></a></li>
+      <li><a href="#pic1"><img src="/images/pages/casa_fronte.jpg" alt="Picture 1"></a></li>
+      <li><a href="#pic2"><img src="/images/pages/casa_fronte.jpg" alt="Picture 1"></a></li>
+      <li><a href="#pic3"><img src="/images/pages/casa_fronte.jpg" alt="Picture 1"></a></li>
+      <li><a href="#pic4"><img src="/images/pages/casa_fronte.jpg" alt="Picture 1"></a></li>
+    </ul>
+	</nav>
+	<nav class="grid_3 gallery">
+    <ul>
+      <li><a href="#pic5"><img src="/images/pages/casa_fronte.jpg" alt="Picture 1"></a></li>
+      <li><a href="#pic6"><img src="/images/pages/casa_fronte.jpg" alt="Picture 1"></a></li>
+      <li><a href="#pic7"><img src="/images/pages/casa_fronte.jpg" alt="Picture 1"></a></li>
+      <li><a href="#pic8"><img src="/images/pages/casa_fronte.jpg" alt="Picture 1"></a></li>
+      <li><a href="#pic9"><img src="/images/pages/casa_fronte.jpg" alt="Picture 1"></a></li>
+    </ul>
+</nav>
+<figure>
+<ul>
+      <li id="pic0"><a href="#home"><img src="/images/pages/casa_fronte.jpg" alt=""></a></li>
+      <li id="pic1"><a href="#home"><img src="/images/pages/casa_fronte.jpg" alt=""></a></li>
+      <li id="pic2"><a href="#home"><img src="/images/pages/casa_fronte.jpg" alt=""></a></li>
+      <li id="pic3"><a href="#home"><img src="/images/pages/casa_fronte.jpg" alt=""></a></li>
+      <li id="pic4"><a href="#home"><img src="/images/pages/casa_fronte.jpg" alt=""></a></li>
+      <li id="pic5"><a href="#home"><img src="/images/pages/casa_fronte.jpg" alt=""></a></li>
+      <li id="pic6"><a href="#home"><img src="/images/pages/casa_fronte.jpg" alt=""></a></li>
+      <li id="pic7"><a href="#home"><img src="/images/pages/casa_fronte.jpg" alt=""></a></li>
+      <li id="pic8"><a href="#home"><img src="/images/pages/casa_fronte.jpg" alt=""></a></li>
+      <li id="pic9"><a href="#home"><img src="/images/pages/casa_fronte.jpg" alt=""></a></li>
+</ul>
+</figure>
+		'''
+    html += '''<div class="grid_1 omega">&nbsp;</div>
 			</section>
 			<div class="clear"></div>
 		</div>
@@ -152,4 +186,5 @@ def footer(node):
 	  	<script src="'''+ PREFIX +'''js/jquery.js"></script> 
   		<script src="'''+ PREFIX +'''js/hashgrid.js"></script>
 	</body>
-</html>'''	
+</html>'''
+    return html	
