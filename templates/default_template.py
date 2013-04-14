@@ -127,7 +127,7 @@ def header(node):
 		<div class="container_24">
 			<section class="push_3 grid_18">
 				<div class="grid_1 alpha">&nbsp;</div>
-				<article class="suffix_1 grid_9 '''+ linkname +'''">
+				<article class="grid_10 '''+ linkname +'''">
 '''
 def footer(node):
     """Build the footer and return it to a string."""
