@@ -94,7 +94,6 @@ def header(node):
 		<link rel="stylesheet" type="text/css" media="all" href="'''+ PREFIX +'''css/hashgrid.css" />
 		<link rel="stylesheet" type="text/css" media="all" href="'''+ PREFIX +'''css/style.css" />
   		<script src="'''+ PREFIX +'''js/modernizr.js"></script>
-		<link rel="icon" type="image/png" href="'''+ PREFIX +'''img/iuliinetlogo.png">
 	</head>
 	<body id="top">
 		<div class="container_24">
@@ -140,37 +139,40 @@ def footer(node):
     elif linkname == 'alloggi':
 	html += '''<nav class="grid_3 gallery"">
     <ul>
-      <li><a href="#pic0"><img src="/images/pages/casa_fronte.jpg" alt="Picture 1"></a></li>
-      <li><a href="#pic1"><img src="/images/pages/casa_fronte.jpg" alt="Picture 1"></a></li>
-      <li><a href="#pic2"><img src="/images/pages/casa_fronte.jpg" alt="Picture 1"></a></li>
-      <li><a href="#pic3"><img src="/images/pages/casa_fronte.jpg" alt="Picture 1"></a></li>
-      <li><a href="#pic4"><img src="/images/pages/casa_fronte.jpg" alt="Picture 1"></a></li>
+      <li><a href="#pic0"><img src="/images/pages/pic00.jpg" alt="Picture 1"></a></li>
+      <li><a href="#pic1"><img src="/images/pages/pic01.jpg" alt="Picture 1"></a></li>
+      <li><a href="#pic2"><img src="/images/pages/pic02.jpg" alt="Picture 1"></a></li>
+      <li><a href="#pic3"><img src="/images/pages/pic03.jpg" alt="Picture 1"></a></li>
+      <li><a href="#pic4"><img src="/images/pages/pic04.jpg" alt="Picture 1"></a></li>
     </ul>
 	</nav>
 	<nav class="grid_3 gallery">
     <ul>
-      <li><a href="#pic5"><img src="/images/pages/casa_fronte.jpg" alt="Picture 1"></a></li>
-      <li><a href="#pic6"><img src="/images/pages/casa_fronte.jpg" alt="Picture 1"></a></li>
-      <li><a href="#pic7"><img src="/images/pages/casa_fronte.jpg" alt="Picture 1"></a></li>
-      <li><a href="#pic8"><img src="/images/pages/casa_fronte.jpg" alt="Picture 1"></a></li>
-      <li><a href="#pic9"><img src="/images/pages/casa_fronte.jpg" alt="Picture 1"></a></li>
+      <li><a href="#pic5"><img src="/images/pages/pic05.jpg" alt="Picture 1"></a></li>
+      <li><a href="#pic6"><img src="/images/pages/pic06.jpg" alt="Picture 1"></a></li>
+      <li><a href="#pic7"><img src="/images/pages/pic07.jpg" alt="Picture 1"></a></li>
+      <li><a href="#pic8"><img src="/images/pages/pic08.jpg" alt="Picture 1"></a></li>
+      <li><a href="#pic9"><img src="/images/pages/pic09.jpg" alt="Picture 1"></a></li>
     </ul>
 </nav>
 <figure>
 <ul>
-      <li id="pic0"><a href="#home"><img src="/images/pages/casa_fronte.jpg" alt=""></a></li>
-      <li id="pic1"><a href="#home"><img src="/images/pages/casa_fronte.jpg" alt=""></a></li>
-      <li id="pic2"><a href="#home"><img src="/images/pages/casa_fronte.jpg" alt=""></a></li>
-      <li id="pic3"><a href="#home"><img src="/images/pages/casa_fronte.jpg" alt=""></a></li>
-      <li id="pic4"><a href="#home"><img src="/images/pages/casa_fronte.jpg" alt=""></a></li>
-      <li id="pic5"><a href="#home"><img src="/images/pages/casa_fronte.jpg" alt=""></a></li>
-      <li id="pic6"><a href="#home"><img src="/images/pages/casa_fronte.jpg" alt=""></a></li>
-      <li id="pic7"><a href="#home"><img src="/images/pages/casa_fronte.jpg" alt=""></a></li>
-      <li id="pic8"><a href="#home"><img src="/images/pages/casa_fronte.jpg" alt=""></a></li>
-      <li id="pic9"><a href="#home"><img src="/images/pages/casa_fronte.jpg" alt=""></a></li>
+      <li id="pic0"><a href="#home"><img src="/images/pages/pic00.jpg" alt=""></a></li>
+      <li id="pic1"><a href="#home"><img src="/images/pages/pic01.jpg" alt=""></a></li>
+      <li id="pic2"><a href="#home"><img src="/images/pages/pic02.jpg" alt=""></a></li>
+      <li id="pic3"><a href="#home"><img src="/images/pages/pic03.jpg" alt=""></a></li>
+      <li id="pic4"><a href="#home"><img src="/images/pages/pic04.jpg" alt=""></a></li>
+      <li id="pic5"><a href="#home"><img src="/images/pages/pic05.jpg" alt=""></a></li>
+      <li id="pic6"><a href="#home"><img src="/images/pages/pic06.jpg" alt=""></a></li>
+      <li id="pic7"><a href="#home"><img src="/images/pages/pic07.jpg" alt=""></a></li>
+      <li id="pic8"><a href="#home"><img src="/images/pages/pic08.jpg" alt=""></a></li>
+      <li id="pic9"><a href="#home"><img src="/images/pages/pic09.jpg" alt=""></a></li>
 </ul>
-</figure>
-		'''
+</figure>'''
+    elif linkname == 'informazioni':
+	html += '''<figure class="grid_6"><img class="logo" src="/images/pages/logo_resia.jpg" alt="logo del comune di resia"/><img class="logo" src="/images/pages/logo_parco.jpg" alt="logo del comune di resia"/></figure>'''
+    elif linkname == 'contatti':
+	html += '''<figure class="grid_6"><iframe width="230px" height="230px" src="https://maps.google.it/maps?q=Resia+UD&amp;hl=it&amp;ie=UTF8&amp;view=map&amp;ftid=0x477a3e21c3cfb9bd:0x8f976dec79701aef&amp;ftt=37&amp;geocode=FR5WwwIdmtvKAA&amp;split=0&amp;sll=46.355998,13.294490&amp;sspn=0.000000,0.000000&amp;hq=&amp;hnear=Resia,+Udine,+Friuli-Venezia+Giulia&amp;ll=46.355998,13.29449&amp;spn=0.015403,0.032015&amp;t=h&amp;output=embed"></iframe></figure>'''
     html += '''<div class="grid_1 omega">&nbsp;</div>
 			</section>
 			<div class="clear"></div>
