@@ -107,22 +107,22 @@ article {
 }
 
 article.casa {
-	background: url(/images/pages/home.png) no-repeat;
+	background: url(/images/pages/home.png) 40px 0px no-repeat;
 	background-size: 320px 320px, auto;
 }
 
 article.alloggi {
-	background: url(/images/pages/bed.png) no-repeat;
+	background: url(/images/pages/bed.png) 40px 0px no-repeat;
 	background-size: 320px 320px, auto;
 }
 
 article.informazioni {
-	background: url(/images/pages/info.png) no-repeat;
+	background: url(/images/pages/info.png) 40px 0px no-repeat;
 	background-size: 320px 320px, auto;
 }
 
 article.contatti {
-	background: url(/images/pages/contacts.png) no-repeat;
+	background: url(/images/pages/contacts.png) 40px 0px no-repeat;
 	background-size: 320px 320px, auto;
 }
 
