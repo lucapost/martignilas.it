@@ -148,8 +148,12 @@ figure img.casa{
 figure img.logo {
 	width: 224px;
 	padding: 2px;
-	margin: 0 0 20px 0;
+	margin: 40px 0 20px 0;
 	border: 1px solid black;
+}
+
+figure iframe {
+	margin: 40px 0 20px 0;
 }
 
 nav.gallery {
