@@ -13,7 +13,7 @@ All'esterno sono  disponibili tavoli e sedie da giardino, lettini, doccia con
 
 I prezzi a singola persona per una notte variano a seconda della stagione:
 
-* € 18 per mesi di aprile, maggio, giugno e settembre;
+* € 18 per i mesi di aprile, maggio, giugno e settembre;
 * € 20 per i mesi di luglio ed agosto.
 
 Si comprende tv satellitare, stoviglie, lavatrice, cucina a gas, forno elettrico, lenzuola, asciugamani, coperte, attrezzatura da giardino.
