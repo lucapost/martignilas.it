@@ -1,6 +1,6 @@
 ### Informativa sulla Privacy
 
-Apprezziamo la fiducia accordataci nello scegliere MyFairItaly. Pertanto, salvaguarderemo e proteggeremo con estrema attenzione la privacy e la confidenzialità dei vostri dati personali. L’informativa sulla privacy si applica a tutti i nostri servizi.
+Apprezziamo la fiducia accordataci nello scegliere casa vacanze Martignilas. Pertanto, salvaguarderemo e proteggeremo con estrema attenzione la privacy e la confidenzialità dei vostri dati personali. L’informativa sulla privacy si applica a tutti i nostri servizi.
 
 #### Raccolta informazioni:
 
@@ -16,7 +16,7 @@ Poichè sono graditi i commenti relativi ai servizi svolti dalla nostra azienda 
 
 #### Newsletter e altre informazioni:
 
-Se desiderate iscrivervi alla nostra newsletter o ricevere altre informazioni (nel pieno rispetto dei prodotti e servizi nostri, delle nostre società affiliate o dei nostri partner di lavoro), vogliate cortesemente scrivere a "info@myfairitaly.com":mailto:info@myfairitaly.com per aderire a tale servizio. Qualora non vogliate più ricevere le nostre newsletter e altre comunicazioni promozionali è sufficiente inviare una mail con "No Newsletter" a "info@myfairitaly.com":mailto:info@myfairitaly.com.
+Se desiderate iscrivervi alla nostra newsletter o ricevere altre informazioni (nel pieno rispetto dei prodotti e servizi nostri, delle nostre società affiliate o dei nostri partner di lavoro), vogliate cortesemente scrivere a [pdilena@tin.it](mailto:pdilena@tin.it "email") per aderire a tale servizio. Qualora non vogliate più ricevere le nostre newsletter e altre comunicazioni promozionali è sufficiente inviare una mail con "No Newsletter" a [pdilena@tin.it](mailto:pdilena@tin.it "email")
 
 #### Registrazione dei visitatori, log in e uso dei "cookie" e dei web bug:
 
@@ -36,4 +36,4 @@ Dopo che avrete effettuato la prenotazione, riceverete una e-mail di conferma co
 
 #### Contatti:
 
-MyFairItaly.com è responsabile della gestione dei dati personali. Qualora abbiate suggerimenti od osservazioni da sottoporre alla nostra attenzione, siete pregati di inviarci un’e-mail all’indirizzo di posta elettronica: "info@myfairitaly.com(email info myfairitaly)":mailto:info@myfairitaly.com. Siamo autorizzati in ogni momento a cambiare le modalità di raccolta, di trasmissione e di elaborazione delle informazioni personali e di qualunque altro genere di informazione a nostra totale discrezione. La presente Informativa sulla privacy, quindi, potrà essere modificata di tanto in tanto con lo scopo di riflettere al meglio i cambiamenti più recenti.
+MyFairItaly.com è responsabile della gestione dei dati personali. Qualora abbiate suggerimenti od osservazioni da sottoporre alla nostra attenzione, siete pregati di inviarci un’e-mail all’indirizzo di posta elettronica: [pdilena@tin.it](mailto:pdilena@tin.it "email"). Siamo autorizzati in ogni momento a cambiare le modalità di raccolta, di trasmissione e di elaborazione delle informazioni personali e di qualunque altro genere di informazione a nostra totale discrezione. La presente Informativa sulla privacy, quindi, potrà essere modificata di tanto in tanto con lo scopo di riflettere al meglio i cambiamenti più recenti.
