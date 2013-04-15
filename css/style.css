@@ -122,8 +122,8 @@ article.contatti {
 	background-size: 320px 320px, auto;
 }
 
-figure img {
-	margin: 0;
+figure {
+	margin-top: 20px;
 	padding: 0;
 	border: 0;
 }
@@ -133,27 +133,27 @@ figure.flag img {
 	height: 18px;
 	border: 0;
 	padding: 0px;
-	margin-top: 20px;
+	margin-top: 0px;
 }
 
-figure img.casa{
+figure img.casa {
 	background: url('/images/op.png');
 	width: 224px;
 	height: 224px;
 	padding: 2px;
-	margin-top: 40px;
 	border: 1px solid black;
+	margin: 20px 0 0 0;
 }
 
 figure img.logo {
 	width: 224px;
 	padding: 2px;
-	margin: 40px 0 20px 0;
+	margin: 20px 0 0 0;
 	border: 1px solid black;
 }
 
 figure iframe {
-	margin: 40px 0 20px 0;
+	margin: 20px 0 0 0;
 }
 
 nav.gallery {
