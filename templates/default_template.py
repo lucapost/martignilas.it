@@ -83,7 +83,6 @@ def header(node):
 	<head>
         	<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-		<meta name="googlebot" content="nofollow">
         	<meta name="author" content="''' + AUTHOR + '''" />
 	        <meta name="description" content="''' + description + '''" />
         	<title>''' + title + '''</title>
