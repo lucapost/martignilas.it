@@ -14,8 +14,8 @@ Nelle immediate vicinanze della struttura si può gradire i servizi resi dispon
 
 Durante il corso dell'anno sono numerose le iniziative proposte dalle molteplici associazioni del luogo:
 
-* festa dell'aglio 15 agosto http://www.resianet.org/?p=289;
-* carnevale resiano http://www.resianet.org/?page_id=24;
+* festa dell'aglio a Prato di Resia, 15 agosto, 5km;
+* carnevale resiano, febbraio;
 
 La  casa vacanze Martignilas può essere utilizzata  nostri ospiti anche come base di partenza per escursioni a piedi ed in bicicletta per i numerosi sentieri della Valle.
 
@@ -25,9 +25,9 @@ A pochi chilometri dalla struttura è possibile visitare alcuni musei e parchi, 
 
 * parco delle prealpi giuliei, [www.parcoprealpigiulie.it](http://www.parcoprealpigiulie.it "sito del parco delle prealpi giulie");
 * museo dell'arrotino, [www.arrotinivalresia.it](http://www.arrotinivalresia.it "sito degli arrotini della Val Resia");
-* museo della miniera del resartico;
-* mostra permanente "foreste, uomo, economia";
-* mostra speleologica e carsismo;
+* museo della miniera del Resartico di Resiutta, XXkm;
+* mostra permanente "foreste, uomo, economia" di Venzone, XXkm;
+* mostra speleologica e carsismo di Sella Nevea, XXkm;
 
 ### A qualche km in più...
 
