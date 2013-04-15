@@ -102,6 +102,10 @@ section {
 	background: url('/images/op.png');
 }
 
+article {
+	min-height: 290px;
+}
+
 article.casa {
 	background: url(/images/pages/home.png) no-repeat;
 	background-size: 320px 320px, auto;
