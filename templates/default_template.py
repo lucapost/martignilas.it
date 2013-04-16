@@ -4,7 +4,7 @@ import datetime
 SITE_NAME = "martignilas"
 DESC = "Casa vacanze in Val Resia"
 AUTHOR = "lucapost"
-SRC = "/home/lucapost/repo/martignilas.it/src"
+SRC = "/home/lucapost/repo/martignilas.it/src_it"
 DST = "./"
 SITEMAP = "sitemap.xml"
 URL = "http://martignilas.it"
