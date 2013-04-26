@@ -140,6 +140,10 @@ figure.flag img {
 	margin-top: 0px;
 }
 
+figure.flag img.active {	
+	box-shadow: 0px 0px 8px black;
+}
+
 figure img.casa {
 	background: url('/images/op.png');
 	width: 224px;
