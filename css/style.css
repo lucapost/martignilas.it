@@ -153,6 +153,15 @@ figure img.casa {
 	margin: 20px 0 0 0;
 }
 
+figure img.haus {
+	background: url('/images/op.png');
+	width: 224px;
+	height: 224px;
+	padding: 2px;
+	border: 1px solid black;
+	margin: 20px 0 0 0;
+}
+
 figure img.logo {
 	width: 224px;
 	padding: 2px;
