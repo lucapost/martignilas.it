@@ -88,6 +88,7 @@ def header(node):
     flagde = ''
     flagen = ''
     lang = 'it'
+    imagebg = ''
 
     if DST == '/home/lucapost/repo/martignilas.it/de':
       desc = 'Ferienhaus in Val Resia'
@@ -101,6 +102,15 @@ def header(node):
       desc = 'Casa vacanze in Val Resia'
       flagit = ' active'
       lang = 'it'
+
+    if linkname == 'casa' or linkname == 'haus':
+	imagebg = ' casa'
+    if linkname == 'alloggi' or linkname == 'unterkunft':
+	imagebg = ' alloggi'
+    if linkname == 'info':
+	imagebg = ' info'
+    if linkname == 'contatti' or linkname == 'kontacte':
+	imagebg = ' contatti'
 
     return '''<!DOCTYPE html>
 	<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="''' + lang + '''"> <![endif]-->
@@ -152,7 +162,7 @@ def header(node):
 		<div class="container_24">
 			<section class="push_3 grid_18">
 				<div class="grid_1 alpha">&nbsp;</div>
-				<article class="grid_10 '''+ linkname +'''">
+				<article class="grid_10'''+ imagebg +'''">
 '''
 def footer(node):
     """Build the footer and return it to a string."""
