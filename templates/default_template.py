@@ -114,12 +114,12 @@ def header(node):
 	        <meta name="description" content="''' + description + '''" />
         	<title>''' + title + '''</title>
   		<meta name="viewport" content="width=device-width">
-		<link rel="stylesheet" type="text/css" media="all" href="'''+ PREFIX +'''css/reset.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="'''+ PREFIX +'''css/text.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="'''+ PREFIX +'''css/960.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="'''+ PREFIX +'''css/hashgrid.css" />
-		<link rel="stylesheet" type="text/css" media="all" href="'''+ PREFIX +'''css/style.css" />
-  		<script src="'''+ PREFIX +'''js/modernizr.js"></script>
+		<link rel="stylesheet" type="text/css" media="all" href="/css/reset.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="/css/text.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="/css/960.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="/css/hashgrid.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
+  		<script src="/js/modernizr.js"></script>
 	</head>
 	<body id="top">
 		<div class="container_24">
@@ -165,20 +165,20 @@ def footer(node):
     elif linkname == 'alloggi' or linkname == 'unterkunft':
 	html += '''<nav class="grid_3 gallery"">
     <ul>
-      <li><a href="#pic0"><img src="/images/pages/pic00.jpg" alt="Picture 1"></a></li>
-      <li><a href="#pic1"><img src="/images/pages/pic01.jpg" alt="Picture 1"></a></li>
-      <li><a href="#pic2"><img src="/images/pages/pic02.jpg" alt="Picture 1"></a></li>
-      <li><a href="#pic3"><img src="/images/pages/pic03.jpg" alt="Picture 1"></a></li>
-      <li><a href="#pic4"><img src="/images/pages/pic04.jpg" alt="Picture 1"></a></li>
+      <li><a href="#pic0"><img src="/images/pages/pic00.jpg" alt=""></a></li>
+      <li><a href="#pic1"><img src="/images/pages/pic01.jpg" alt=""></a></li>
+      <li><a href="#pic2"><img src="/images/pages/pic02.jpg" alt=""></a></li>
+      <li><a href="#pic3"><img src="/images/pages/pic03.jpg" alt=""></a></li>
+      <li><a href="#pic4"><img src="/images/pages/pic04.jpg" alt=""></a></li>
     </ul>
 	</nav>
 	<nav class="grid_3 gallery">
     <ul>
-      <li><a href="#pic5"><img src="/images/pages/pic05.jpg" alt="Picture 1"></a></li>
-      <li><a href="#pic6"><img src="/images/pages/pic06.jpg" alt="Picture 1"></a></li>
-      <li><a href="#pic7"><img src="/images/pages/pic07.jpg" alt="Picture 1"></a></li>
-      <li><a href="#pic8"><img src="/images/pages/pic08.jpg" alt="Picture 1"></a></li>
-      <li><a href="#pic9"><img src="/images/pages/pic09.jpg" alt="Picture 1"></a></li>
+      <li><a href="#pic5"><img src="/images/pages/pic05.jpg" alt=""></a></li>
+      <li><a href="#pic6"><img src="/images/pages/pic06.jpg" alt=""></a></li>
+      <li><a href="#pic7"><img src="/images/pages/pic07.jpg" alt=""></a></li>
+      <li><a href="#pic8"><img src="/images/pages/pic08.jpg" alt=""></a></li>
+      <li><a href="#pic9"><img src="/images/pages/pic09.jpg" alt=""></a></li>
     </ul>
 </nav>
 <figure>
@@ -211,8 +211,8 @@ def footer(node):
 			</div>
 			<div class="clear"></div>
 		</div>	
-	  	<script src="'''+ PREFIX +'''js/jquery.js"></script> 
-  		<script src="'''+ PREFIX +'''js/hashgrid.js"></script>
+	  	<script src="/js/jquery.js"></script> 
+  		<script src="/js/hashgrid.js"></script>
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-6164762-13']);
