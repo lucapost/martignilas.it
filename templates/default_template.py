@@ -163,7 +163,7 @@ def footer(node):
     if linkname == 'casa' or linkname == 'haus':
 	html += '''<figure class="grid_6"><img alt="ingresso della casa" src="/images/pages/casa_fronte.jpg" title="casa martignilas" class="'''+ linkname +'''"/></figure>'''
     elif linkname == 'alloggi' or linkname == 'unterkunft':
-	html += '''<nav class="grid_3 gallery"">
+	html += '''<nav class="grid_3 gallery">
     <ul>
       <li><a href="#pic0"><img src="/images/pages/pic00.jpg" alt=""></a></li>
       <li><a href="#pic1"><img src="/images/pages/pic01.jpg" alt=""></a></li>
