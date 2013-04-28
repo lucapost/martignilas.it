@@ -4,7 +4,7 @@ import datetime
 SITE_NAME = "martignilas"
 DESC = "Casa vacanze in Val Resia"
 AUTHOR = "lucapost"
-SRC = "/home/lucapost/repo/martignilas.it/src"
+SRC = "/home/lucapost/repo/martignilas.it/src_"
 DST = "./"
 SITEMAP = "sitemap.xml"
 URL = "http://martignilas.it"
@@ -15,10 +15,10 @@ SRC_EXT = {"markdown": "md", "textile": "tt"}
 DST_EXT = "html"
 HIDDEN = set(["404.md", "privacy.md"])
 menu_code = ''
-PAGES = {SRC + "/01_index.md": ("casa", "sito internet della casa vacanze Martignilas"),
-	 SRC + "/10_alloggi.md": ("alloggi", "descrizione della casa"),
-	 SRC + "/20_informazioni.md": ("informazioni", "eventi e cose da visitare"),
-	 SRC + "/30_contatti.md": ("contatti", "comunicare con il propietario")}
+PAGES = {SRC + "it/01_index.md": ("casa", "sito internet della casa vacanze Martignilas"),
+	 SRC + "it/10_alloggi.md": ("alloggi", "descrizione della casa"),
+	 SRC + "it/20_informazioni.md": ("informazioni", "eventi e cose da visitare"),
+	 SRC + "it/30_contatti.md": ("contatti", "comunicare con il propietario")}
 
 current_time = datetime.datetime.now()
 
@@ -47,7 +47,10 @@ def menu(node):
 
 def menu_(node, cur_node, node_prefix = PREFIX, indent = ''):
     """Auxiliary recursive function for menu generation."""
-
+    
+    (title, description, linkname) = get_page_contents(node)
+    print((linkname))
+    
     global menu_code
 
     menu_code += indent + '<ul>\n'
@@ -60,20 +63,18 @@ def menu_(node, cur_node, node_prefix = PREFIX, indent = ''):
             menu_code += ' current'
         menu_code += '"><a href="' + node_prefix + child.page.dst_file
         if child.children:
-            menu_code += "/index." + DST_EXT + '">'    + child.page.name + '</a>\n'
+            menu_code += "/index." + DST_EXT + '">' + child.page.name + '</a>\n'
             menu_(child, cur_node, node_prefix + child.page.dst_file + '/', indent + '\t')
             menu_code += indent + '</li>\n'
 	else:
-	    if child.page.name == 'index':
-	        menu_code += '">casa</a></li>\n'
-            else:
-	        menu_code += '">'   + child.page.name + '</a></li>\n'
+	    menu_code += '">'   + child.page.name + '</a></li>\n'
     menu_code += indent + '</ul>\n'
 
 def header(node):
     """Build the header and return it to a string."""
 
     (title, description, linkname) = get_page_contents(node)
+    print((linkname))
 
     return '''<!DOCTYPE html>
 	<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="it"> <![endif]-->

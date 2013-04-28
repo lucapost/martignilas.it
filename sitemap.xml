@@ -1,51 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://martignilas.it/en/informazioni.html</loc>
-    <lastmod>2013-04-26</lastmod>
-  </url>
-  <url>
-    <loc>http://martignilas.it/en/index.html</loc>
-    <lastmod>2013-04-26</lastmod>
-  </url>
-  <url>
-    <loc>http://martignilas.it/en/contatti.html</loc>
-    <lastmod>2013-04-26</lastmod>
-  </url>
-  <url>
-    <loc>http://martignilas.it/en/alloggi.html</loc>
-    <lastmod>2013-04-26</lastmod>
-  </url>
-  <url>
-    <loc>http://martignilas.it/informazioni.html</loc>
-    <lastmod>2013-04-19</lastmod>
-  </url>
-  <url>
     <loc>http://martignilas.it/index.html</loc>
-    <lastmod>2013-04-19</lastmod>
+    <lastmod>2013-04-28</lastmod>
   </url>
   <url>
-    <loc>http://martignilas.it/contatti.html</loc>
-    <lastmod>2013-04-19</lastmod>
+    <loc>http://martignilas.it/unterkunft.html</loc>
+    <lastmod>2013-04-28</lastmod>
   </url>
   <url>
-    <loc>http://martignilas.it/de/informazioni.html</loc>
-    <lastmod>2013-04-26</lastmod>
+    <loc>http://martignilas.it/kontacte.html</loc>
+    <lastmod>2013-04-28</lastmod>
   </url>
   <url>
-    <loc>http://martignilas.it/de/index.html</loc>
-    <lastmod>2013-04-26</lastmod>
-  </url>
-  <url>
-    <loc>http://martignilas.it/de/contatti.html</loc>
-    <lastmod>2013-04-26</lastmod>
-  </url>
-  <url>
-    <loc>http://martignilas.it/de/alloggi.html</loc>
-    <lastmod>2013-04-26</lastmod>
-  </url>
-  <url>
-    <loc>http://martignilas.it/alloggi.html</loc>
-    <lastmod>2013-04-19</lastmod>
+    <loc>http://martignilas.it/informationen.html</loc>
+    <lastmod>2013-04-28</lastmod>
   </url>
 </urlset>
