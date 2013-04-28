@@ -136,13 +136,13 @@ def header(node):
 					</nav>
 					<figure class="flag">
 						<a href="/" title="italiano">
-							<img src="/images/flag_ita.png" class="grid_1''' + flagit + '''">
+							<img src="/images/flag_ita.png" alt="lingua italiana" class="grid_1''' + flagit + '''">
 						</a>
 						<a href="#" title="english">
-							<img src="/images/flag_eng.png" class="grid_1''' + flagen + '''">
+							<img src="/images/flag_eng.png" alt="english language" class="grid_1''' + flagen + '''">
 						</a>
 						<a href="/de" title="deutsch">
-							<img src="/images/flag_deu.png" class="grid_1''' + flagde + '''">
+							<img src="/images/flag_deu.png" alt="deutch" class="grid_1''' + flagde + '''">
 						</a>
 					</figure>
 					<div class="grid_1 omega">&nbsp;</div>
