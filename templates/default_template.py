@@ -2,7 +2,6 @@ import time
 import datetime
 
 SITE_NAME = "martignilas"
-DESC = "Casa vacanze in Val Resia"
 AUTHOR = "lucapost"
 SRC = "/home/lucapost/repo/martignilas.it/src_"
 DST = "./"
@@ -15,10 +14,16 @@ SRC_EXT = {"markdown": "md", "textile": "tt"}
 DST_EXT = "html"
 HIDDEN = set(["404.md", "privacy.md"])
 menu_code = ''
-PAGES = {SRC + "it/01_index.md": ("casa", "sito internet della casa vacanze Martignilas"),
+PAGES = {
+         SRC + "it/01_index.md": ("casa", "sito internet della casa vacanze Martignilas"),
 	 SRC + "it/10_alloggi.md": ("alloggi", "descrizione della casa"),
-	 SRC + "it/20_informazioni.md": ("informazioni", "eventi e cose da visitare"),
-	 SRC + "it/30_contatti.md": ("contatti", "comunicare con il propietario")}
+	 SRC + "it/20_informazioni.md": ("info", "eventi e cose da visitare"),
+	 SRC + "it/30_contatti.md": ("contatti", "comunicare con il propietario"),
+         SRC + "de/03_index.md": ("haus", "Martignilas"),
+	 SRC + "de/10_unterkunft.md": ("unterkunft", "descrizione della casa"),
+	 SRC + "de/20_informationen.md": ("info", "eventi e cose da visitare"),
+	 SRC + "de/30_kontacte.md": ("kontacte", "comunicare con il propietario")
+}
 
 current_time = datetime.datetime.now()
 
@@ -47,14 +52,20 @@ def menu(node):
 
 def menu_(node, cur_node, node_prefix = PREFIX, indent = ''):
     """Auxiliary recursive function for menu generation."""
-    
-    (title, description, linkname) = get_page_contents(node)
-    print((linkname))
-    
+
+    print((node.page.dst_pathname))
+
+    if node.page.dst_pathname == '/home/lucapost/repo/martignilas.it/de':
+      node_prefix = '/de/'
+
+    if node.page.dst_pathname == '/home/lucapost/repo/martignilas.it/en':
+      node_prefix = '/en/'
+
     global menu_code
 
     menu_code += indent + '<ul>\n'
     for child in sorted(node.children, key=lambda n: n.page.src_pathname):
+	(title, description, linkname) = get_page_contents(child)
         if child.page.src_file in HIDDEN:
             continue
         menu_code += indent + '<li class="level-' + str(child.page.level)
@@ -63,24 +74,44 @@ def menu_(node, cur_node, node_prefix = PREFIX, indent = ''):
             menu_code += ' current'
         menu_code += '"><a href="' + node_prefix + child.page.dst_file
         if child.children:
-            menu_code += "/index." + DST_EXT + '">' + child.page.name + '</a>\n'
+            menu_code += "/index." + DST_EXT + '">' + linkname + '</a>\n'
             menu_(child, cur_node, node_prefix + child.page.dst_file + '/', indent + '\t')
             menu_code += indent + '</li>\n'
 	else:
-	    menu_code += '">'   + child.page.name + '</a></li>\n'
+	    menu_code += '">'   + linkname + '</a></li>\n'
     menu_code += indent + '</ul>\n'
 
 def header(node):
     """Build the header and return it to a string."""
 
     (title, description, linkname) = get_page_contents(node)
-    print((linkname))
+ 
+    print((node.page.dst_pathname))
+    flagit = ''
+    flagde = ''
+    flagen = ''
+    lang = 'it'
+
+    if DST == '/home/lucapost/repo/martignilas.it/de':
+      DESC = 'Ferienhaus in Val Resia'
+      flagde = ' active'
+      lang = 'de'
+    elif DST == '/home/lucapost/repo/martignilas.it/en':
+      DESC = 'Holidays house in Val Resia'
+      flagen = ' active'
+      lang = 'en'
+    else:
+      DESC = 'Casa vacanze in Val Resia'
+      flagit = ' active'
+      lang = 'it'
+
+    print((DESC))
 
     return '''<!DOCTYPE html>
-	<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="it"> <![endif]-->
-	<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="it"> <![endif]-->
-	<!--[if IE 8]>    <html class="no-js lt-ie9" lang="it"> <![endif]-->
-	<!--[if gt IE 8]><!--> <html class="no-js" lang="it"> <!--<![endif]-->
+	<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="''' + lang + '''"> <![endif]-->
+	<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="''' + lang + '''"> <![endif]-->
+	<!--[if IE 8]>    <html class="no-js lt-ie9" lang="'''+ lang + '''"> <![endif]-->
+	<!--[if gt IE 8]><!--> <html class="no-js" lang="''' + lang + '''"> <!--<![endif]-->
 	<head>
         	<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -110,13 +141,13 @@ def header(node):
 					</nav>
 					<figure class="flag">
 						<a href="/" title="italiano">
-							<img src="/images/flag_ita.png" class="grid_1 active">
+							<img src="/images/flag_ita.png" class="grid_1''' + flagit + '''">
 						</a>
 						<a href="#" title="english">
-							<img src="/images/flag_eng.png" class="grid_1">
+							<img src="/images/flag_eng.png" class="grid_1''' + flagen + '''">
 						</a>
-						<a href="#" title="deutsch">
-							<img src="/images/flag_deu.png" class="grid_1">
+						<a href="/de" title="deutsch">
+							<img src="/images/flag_deu.png" class="grid_1''' + flagde + '''">
 						</a>
 					</figure>
 					<div class="grid_1 omega">&nbsp;</div>
@@ -134,9 +165,9 @@ def footer(node):
     (title, description, linkname) = get_page_contents(node)
 
     html = '''\n</article>'''
-    if linkname == 'casa':
+    if linkname == 'casa' or linkname == 'haus':
 	html += '''<figure class="grid_6"><img alt="ingresso della casa" src="/images/pages/casa_fronte.jpg" title="casa martignilas" class="'''+ linkname +'''"/></figure>'''
-    elif linkname == 'alloggi':
+    elif linkname == 'alloggi' or linkname == 'unterkunft':
 	html += '''<nav class="grid_3 gallery"">
     <ul>
       <li><a href="#pic0"><img src="/images/pages/pic00.jpg" alt="Picture 1"></a></li>
@@ -169,9 +200,9 @@ def footer(node):
       <li id="pic9"><a href="#home"><img src="/images/pages/pic09.jpg" alt=""></a></li>
 </ul>
 </figure>'''
-    elif linkname == 'informazioni':
+    elif linkname == 'info':
 	html += '''<figure class="grid_6"><img class="logo" src="/images/pages/logo_resia.jpg" alt="logo del comune di resia"/><img class="logo" src="/images/pages/logo_parco.jpg" alt="logo del comune di resia"/></figure>'''
-    elif linkname == 'contatti':
+    elif linkname == 'contatti' or linkname == 'kontacte':
 	html += '''<figure class="grid_6"><iframe width="230px" height="230px" src="https://maps.google.it/maps?q=Resia+UD&amp;hl=it&amp;ie=UTF8&amp;view=map&amp;ftid=0x477a3e21c3cfb9bd:0x8f976dec79701aef&amp;ftt=37&amp;geocode=FR5WwwIdmtvKAA&amp;split=0&amp;sll=46.355998,13.294490&amp;sspn=0.000000,0.000000&amp;hq=&amp;hnear=Resia,+Udine,+Friuli-Venezia+Giulia&amp;ll=46.355998,13.29449&amp;spn=0.015403,0.032015&amp;t=h&amp;output=embed"></iframe></figure>'''
     html += '''<div class="grid_1 omega">&nbsp;</div>
 			</section>
