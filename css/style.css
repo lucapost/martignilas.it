@@ -141,19 +141,10 @@ figure.flag img {
 }
 
 figure.flag img.active {	
-	box-shadow: 0px 0px 8px black;
+	box-shadow: 0px 0px 8px #73519D;
 }
 
 figure img.casa {
-	background: url('/images/op.png');
-	width: 224px;
-	height: 224px;
-	padding: 2px;
-	border: 1px solid black;
-	margin: 20px 0 0 0;
-}
-
-figure img.haus {
 	background: url('/images/op.png');
 	width: 224px;
 	height: 224px;
