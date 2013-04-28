@@ -53,8 +53,6 @@ def menu(node):
 def menu_(node, cur_node, node_prefix = PREFIX, indent = ''):
     """Auxiliary recursive function for menu generation."""
 
-    print((node.page.dst_pathname))
-
     if node.page.dst_pathname == '/home/lucapost/repo/martignilas.it/de':
       node_prefix = '/de/'
 
@@ -86,7 +84,6 @@ def header(node):
 
     (title, description, linkname) = get_page_contents(node)
  
-    print((node.page.dst_pathname))
     flagit = ''
     flagde = ''
     flagen = ''
@@ -104,8 +101,6 @@ def header(node):
       DESC = 'Casa vacanze in Val Resia'
       flagit = ' active'
       lang = 'it'
-
-    print((DESC))
 
     return '''<!DOCTYPE html>
 	<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="''' + lang + '''"> <![endif]-->
