@@ -90,15 +90,15 @@ def header(node):
     lang = 'it'
 
     if DST == '/home/lucapost/repo/martignilas.it/de':
-      DESC = 'Ferienhaus in Val Resia'
+      desc = 'Ferienhaus in Val Resia'
       flagde = ' active'
       lang = 'de'
     elif DST == '/home/lucapost/repo/martignilas.it/en':
-      DESC = 'Holidays house in Val Resia'
+      desc = 'Holidays house in Val Resia'
       flagen = ' active'
       lang = 'en'
     else:
-      DESC = 'Casa vacanze in Val Resia'
+      desc = 'Casa vacanze in Val Resia'
       flagit = ' active'
       lang = 'it'
 
@@ -128,7 +128,7 @@ def header(node):
 					<a href="/" title="home page">
 						<hgroup class="grid_8">
 							<h1>''' + SITE_NAME + '''</h1>
-							<h2>''' + DESC + '''</h2>
+							<h2>''' + desc + '''</h2>
 						</hgroup>
 					</a>
 					<nav class="grid_4 suffix_1">
