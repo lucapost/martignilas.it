@@ -1,4 +1,4 @@
-### Contatti
+### Contacts
 
 Casa vacanze Martignilas <br/>
 Fraz. Martignilas n. 8 <br/>
@@ -6,4 +6,4 @@ Fraz. Martignilas n. 8 <br/>
 
 Tel: +390432672131, +393389456208
 
-Email: [pdilena@tin.it](mailto:pdilena@tin.it "email contatto")
+Email: [pdilena@tin.it](mailto:pdilena@tin.it "email contacts")
