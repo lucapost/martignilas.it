@@ -25,13 +25,14 @@ A pochi chilometri dalla struttura è possibile visitare alcuni musei e parchi, 
 
 * parco delle prealpi giuliei, [www.parcoprealpigiulie.it](http://www.parcoprealpigiulie.it "sito del parco delle prealpi giulie");
 * museo dell'arrotino, [www.arrotinivalresia.it](http://www.arrotinivalresia.it "sito degli arrotini della Val Resia");
-* museo della miniera del Resartico di Resiutta, XXkm;
-* mostra permanente "foreste, uomo, economia" di Venzone, XXkm;
-* mostra speleologica e carsismo di Sella Nevea, XXkm;
+* museo della miniera del Resartico di Resiutta, 8km;
+* mostra permanente "foreste, uomo, economia" di Venzone, 22km;
+* mostra speleologica e carsismo di Sella Nevea, 35km;
 
 ### A qualche km in più...
 
 É possibile raggiungere entro poche decine di chilometri:
 
-* casa delle farfalle di Bordano, 25km, [www.farfalledibordano.it](sito della casa delle farfalle);
-* parco avventura di Sella Nevea, 33Km.
+* casa delle farfalle di Bordano, 26km, [www.farfalledibordano.it](sito della casa delle farfalle);
+* parco avventura di Sella Nevea, 33Km;
+* Bovez (SLO), 35km;
