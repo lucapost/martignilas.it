@@ -19,7 +19,11 @@ PAGES = {
 	 SRC + "it/10_alloggi.md": ("alloggi", "descrizione della casa"),
 	 SRC + "it/20_informazioni.md": ("info", "eventi e cose da visitare"),
 	 SRC + "it/30_contatti.md": ("contatti", "comunicare con il propietario"),
-         SRC + "de/03_index.md": ("haus", "Martignilas"),
+         SRC + "en/01_index.md": ("home", "Martignilas holidays home website"),
+	 SRC + "en/10_accomodation.md": ("accomodation", "description of building and offers"),
+	 SRC + "en/20_informations.md": ("info", "some informations about restaurant and museum"),
+	 SRC + "en/30_contacts.md": ("contacts", "how you can contacs with we"),
+         SRC + "de/01_index.md": ("haus", "Martignilas"),
 	 SRC + "de/10_unterkunft.md": ("unterkunft", "descrizione della casa"),
 	 SRC + "de/20_informationen.md": ("info", "eventi e cose da visitare"),
 	 SRC + "de/30_kontacte.md": ("kontacte", "comunicare con il propietario")
@@ -103,13 +107,13 @@ def header(node):
       flagit = ' active'
       lang = 'it'
 
-    if linkname == 'casa' or linkname == 'haus':
+    if linkname == 'casa' or linkname == 'haus' or linkname == 'home':
 	imagebg = ' casa'
-    if linkname == 'alloggi' or linkname == 'unterkunft':
+    if linkname == 'alloggi' or linkname == 'unterkunft' or linkname == 'accomodation':
 	imagebg = ' alloggi'
     if linkname == 'info':
 	imagebg = ' info'
-    if linkname == 'contatti' or linkname == 'kontacte':
+    if linkname == 'contatti' or linkname == 'kontacte' or linkname == 'contacts':
 	imagebg = ' contatti'
 
     return '''<!DOCTYPE html>
@@ -148,7 +152,7 @@ def header(node):
 						<a href="/" title="italiano">
 							<img src="/images/flag_ita.png" alt="lingua italiana" class="grid_1''' + flagit + '''">
 						</a>
-						<a href="#" title="english">
+						<a href="/en" title="english">
 							<img src="/images/flag_eng.png" alt="english language" class="grid_1''' + flagen + '''">
 						</a>
 						<a href="/de" title="deutsch">
@@ -170,9 +174,9 @@ def footer(node):
     (title, description, linkname) = get_page_contents(node)
 
     html = '''\n</article>'''
-    if linkname == 'casa' or linkname == 'haus':
+    if linkname == 'casa' or linkname == 'haus' or linkname == 'home':
 	html += '''<figure class="grid_6"><img alt="ingresso della casa" src="/images/pages/casa_fronte.jpg" title="casa martignilas" class="casa"/></figure>'''
-    elif linkname == 'alloggi' or linkname == 'unterkunft':
+    elif linkname == 'alloggi' or linkname == 'unterkunft' or linkname == 'accomodation':
 	html += '''<nav class="grid_3 gallery">
     <ul>
       <li><a href="#pic0"><img src="/images/pages/pic00.jpg" alt=""></a></li>
@@ -207,7 +211,7 @@ def footer(node):
 </figure>'''
     elif linkname == 'info':
 	html += '''<figure class="grid_6"><img class="logo" src="/images/pages/logo_resia.jpg" alt="logo del comune di resia"/><img class="logo" src="/images/pages/logo_parco.jpg" alt="logo del comune di resia"/></figure>'''
-    elif linkname == 'contatti' or linkname == 'kontacte':
+    elif linkname == 'contatti' or linkname == 'kontacte' or linkname == 'contacts':
 	html += '''<figure class="grid_6"><iframe width="230px" height="230px" src="https://maps.google.it/maps?q=Resia+UD&amp;hl=it&amp;ie=UTF8&amp;view=map&amp;ftid=0x477a3e21c3cfb9bd:0x8f976dec79701aef&amp;ftt=37&amp;geocode=FR5WwwIdmtvKAA&amp;split=0&amp;sll=46.355998,13.294490&amp;sspn=0.000000,0.000000&amp;hq=&amp;hnear=Resia,+Udine,+Friuli-Venezia+Giulia&amp;ll=46.355998,13.29449&amp;spn=0.015403,0.032015&amp;t=h&amp;output=embed"></iframe></figure>'''
     html += '''<div class="grid_1 omega">&nbsp;</div>
 			</section>
