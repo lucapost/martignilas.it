@@ -16,4 +16,4 @@ Prices per person for a single night, depending on the season:
 * €18 for the months of april, may, june and september;
 * €20 for the months of july and august.
 
-The price includes: satellite TV, crockery, washing machine, gas cooker, electric oven, sheets, towels, blankets, garden furniture. utilities.
+The price includes: satellite TV, crockery, washing machine, gas cooker, electric oven, sheets, towels, blankets, garden furniture. Utilities.
