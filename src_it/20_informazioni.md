@@ -23,7 +23,7 @@ La  casa vacanze Martignilas può essere utilizzata  nostri ospiti anche come 
 
 A pochi chilometri dalla struttura è possibile visitare alcuni musei e parchi, i più significativi sono:
 
-* parco delle prealpi giuliei, [www.parcoprealpigiulie.it](http://www.parcoprealpigiulie.it "sito del parco delle prealpi giulie");
+* parco delle prealpi giulie, [www.parcoprealpigiulie.it](http://www.parcoprealpigiulie.it "sito del parco delle prealpi giulie");
 * museo dell'arrotino, [www.arrotinivalresia.it](http://www.arrotinivalresia.it "sito degli arrotini della Val Resia");
 * museo della miniera del Resartico di Resiutta, 8km;
 * mostra permanente "foreste, uomo, economia" di Venzone, 22km;
