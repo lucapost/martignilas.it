@@ -25,7 +25,7 @@ Our guests  can use the Martignilas Holiday Home as a  starting point for hiking
 
 A few kilometers from the "Martignilas Holiday Home" you can visit some museums and parks. The most significant are:
 
-* park of the Julian Alps, [www.parcoprealpigiulie.it](http://www.parcoprealpigiulie.it "sito del parco delle prealpi giulie");
+* park of the Julian Alps, [www.parcoprealpigiulie.it](http://www.parcoprealpigiulie.it "sito del parco delle prealpi giulie") [www.parks.it/parco.prealpi.giulie/](http://www.parks.it/parco.prealpi.giulie/ "itinerari del parco delle prealpi giulie")
 * knife sharpener museum, [www.arrotinivalresia.it](http://www.arrotinivalresia.it "sito degli arrotini della Val Resia");
 * mining museum of Resartico of Resiutta, 8km;
 * permanent exhibition "forest, mankind, economy" Venzone, 22 km;

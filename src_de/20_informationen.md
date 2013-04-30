@@ -23,7 +23,7 @@ Das Ferienhaus Martignilas kann von unseren Gästen auch als Sammelpunkt für Wa
 
 Wenige kilometer entfernt hat man die Möglichkeit verschiedene Parks und Museen zu besichtigen, die wichtigsten sind:
 
-* parco delle prealpi giulie, [www.parcoprealpigiulie.it](http://www.parcoprealpigiulie.it "parco delle prealpi giulie");
+* parco delle prealpi giulie, [www.parcoprealpigiulie.it](http://www.parcoprealpigiulie.it "sito del parco delle prealpi giulie") [www.parks.it/parco.prealpi.giulie/](http://www.parks.it/parco.prealpi.giulie/ "itinerari del parco delle prealpi giulie")
 * museo dell’arrotino (Schleifer Museum), [www.arrotinivalresia.it](http://www.arrotinivalresia.it "sito degli arrotini della Val Resia");
 * museo della miniera del Resartico di Resiutta, (Bergwerkmuseum), 8km entfernt;
 * mostra permanente "foreste, uomo, economia" in Tenzone (Thematische Austellung: Wälder, Menschen und Wirtschaft), 22km entfernt;
