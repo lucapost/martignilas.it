@@ -29,6 +29,10 @@ Wenige kilometer entfernt hat man die Möglichkeit verschiedene Parks und Museen
 * mostra permanente "foreste, uomo, economia" in Tenzone (Thematische Austellung: Wälder, Menschen und Wirtschaft), 22km entfernt;
 * mostra speleologica e carsismo di Sella Nevea (Austellung von Speläologie und Karsterscheinungen von "Sella Nevea", 35km entfernt.
 
+### Sport
+
+* [www.itinerarifriuli.com](http://www.itinerarifriuli.com/);
+
 ### Ein paar kilometer weiter...
 
 In der Umgebung gibt auch:

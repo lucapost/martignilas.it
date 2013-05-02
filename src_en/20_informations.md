@@ -31,6 +31,10 @@ A few kilometers from the "Martignilas Holiday Home" you can visit some museums 
 * permanent exhibition "forest, mankind, economy" Venzone, 22 km;
 * caving and karst exhibition, Sella Nevea, 35km;
 
+### Sport
+
+* [www.itinerarifriuli.com](http://www.itinerarifriuli.com/);
+
 ### A few kilometers further...
 
 You can reach, within a few kilometers:

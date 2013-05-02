@@ -29,6 +29,10 @@ A pochi chilometri dalla struttura è possibile visitare alcuni musei e parchi, 
 * mostra permanente "foreste, uomo, economia" di Venzone, 22km;
 * mostra speleologica e carsismo di Sella Nevea, 35km;
 
+### Sport
+
+* [www.itinerarifriuli.com](http://www.itinerarifriuli.com/);
+
 ### A qualche km in più...
 
 É possibile raggiungere entro poche decine di chilometri:
