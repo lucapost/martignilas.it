@@ -41,3 +41,4 @@ You can reach, within a few kilometers:
 
 * butterfly house in Bordon, 25km, [www.farfalledibordano.it](sito della casa delle farfalle);
 * adventure park, Sella Nevea, 33Km.
+* Bovec, 35km entfernt, [www.bovec.si/](http://www.bovec.si/ "home page slovenian place").

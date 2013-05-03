@@ -38,4 +38,5 @@ Wenige kilometer entfernt hat man die Möglichkeit verschiedene Parks und Museen
 In der Umgebung gibt auch:
 
 * Haus der Schmetterlinge in "Bordano" , 25km entfernt;
-* Abenteuerpark (Tarzaning und Treeclimbing) in "Sella Nevea", 33km entfernt.
+* Abenteuerpark (Tarzaning und Treeclimbing) in "Sella Nevea", 33km entfernt;
+* Bovec, 35km entfernt, [www.bovec.si/](http://www.bovec.si/).
