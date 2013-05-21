@@ -180,22 +180,22 @@ def footer(node):
 	html += '''<nav class="grid_3 gallery">
     <ul>
       <li><a href="#pic00"><img src="/images/pages/pic00.jpg" alt=""></a></li>
-      <li><a href="#pic03"><img src="/images/pages/pic03.jpg" alt=""></a></li>
+      <li><a href="#pic01"><img src="/images/pages/pic01.jpg" alt=""></a></li>
       <li><a href="#pic02"><img src="/images/pages/pic02.jpg" alt=""></a></li>
-      <li><a href="#pic07"><img src="/images/pages/pic07.jpg" alt=""></a></li>
-      <li><a href="#pic08"><img src="/images/pages/pic08.jpg" alt=""></a></li>
-      <li><a href="#pic11"><img src="/images/pages/pic11.jpg" alt=""></a></li>
-      <li><a href="#pic12"><img src="/images/pages/pic12.jpg" alt=""></a></li>
+      <li><a href="#pic03"><img src="/images/pages/pic03.jpg" alt=""></a></li>
+      <li><a href="#pic04"><img src="/images/pages/pic04.jpg" alt=""></a></li>
+      <li><a href="#pic05"><img src="/images/pages/pic05.jpg" alt=""></a></li>
+      <li><a href="#pic06"><img src="/images/pages/pic06.jpg" alt=""></a></li>
     </ul>
 	</nav>
 	<nav class="grid_3 gallery">
     <ul>
-      <li><a href="#pic01"><img src="/images/pages/pic01.jpg" alt=""></a></li>
-      <li><a href="#pic04"><img src="/images/pages/pic04.jpg" alt=""></a></li>
-      <li><a href="#pic05"><img src="/images/pages/pic05.jpg" alt=""></a></li>
-      <li><a href="#pic06"><img src="/images/pages/pic06.jpg" alt=""></a></li>
+      <li><a href="#pic07"><img src="/images/pages/pic07.jpg" alt=""></a></li>
+      <li><a href="#pic08"><img src="/images/pages/pic08.jpg" alt=""></a></li>
       <li><a href="#pic09"><img src="/images/pages/pic09.jpg" alt=""></a></li>
       <li><a href="#pic10"><img src="/images/pages/pic10.jpg" alt=""></a></li>
+      <li><a href="#pic11"><img src="/images/pages/pic11.jpg" alt=""></a></li>
+      <li><a href="#pic12"><img src="/images/pages/pic12.jpg" alt=""></a></li>
       <li><a href="#pic13"><img src="/images/pages/pic13.jpg" alt=""></a></li>
     </ul>
 </nav>
@@ -220,7 +220,7 @@ def footer(node):
     elif linkname == 'info':
 	html += '''<figure class="grid_6"> <img class="logo" src="/images/pages/mappa_info.png" alt="mappa informazioni"/><img class="logo" src="/images/pages/logo_resia.jpg" alt="logo del comune di resia"/><img class="logo" src="/images/pages/logo_parco.jpg" alt="logo del comune di resia"/></figure>'''
     elif linkname == 'contatti' or linkname == 'kontacte' or linkname == 'contacts':
-	html += '''<figure class="grid_6"><iframe width="230px" height="230px" src="https://maps.google.it/maps?q=Resia+UD&amp;hl=it&amp;ie=UTF8&amp;view=map&amp;ftid=0x477a3e21c3cfb9bd:0x8f976dec79701aef&amp;ftt=37&amp;geocode=FR5WwwIdmtvKAA&amp;split=0&amp;sll=46.355998,13.294490&amp;sspn=0.000000,0.000000&amp;hq=&amp;hnear=Resia,+Udine,+Friuli-Venezia+Giulia&amp;ll=46.355998,13.29449&amp;spn=0.015403,0.032015&amp;t=h&amp;output=embed"></iframe></figure>'''
+        html += '''<figure class="grid_6"><iframe width="230" height="230" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.it/maps?f=q&amp;source=s_q&amp;hl=it&amp;geocode=&amp;q=46.371158,13.318493&amp;aq=&amp;sll=46.371047,13.318278&amp;sspn=0.002158,0.004823&amp;t=h&amp;ie=UTF8&amp;ll=46.371155,13.31852&amp;spn=0.013621,0.019655&amp;z=14&amp;output=embed"></iframe></figure>'''
     html += '''<div class="grid_1 omega">&nbsp;</div>
 			</section>
 			<div class="clear"></div>
