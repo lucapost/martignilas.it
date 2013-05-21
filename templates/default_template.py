@@ -185,7 +185,7 @@ def footer(node):
       <li><a href="#pic07"><img src="/images/pages/pic07.jpg" alt=""></a></li>
       <li><a href="#pic08"><img src="/images/pages/pic08.jpg" alt=""></a></li>
       <li><a href="#pic11"><img src="/images/pages/pic11.jpg" alt=""></a></li>
-      <li><a href="#pic10"><img src="/images/pages/pic10.jpg" alt=""></a></li>
+      <li><a href="#pic12"><img src="/images/pages/pic12.jpg" alt=""></a></li>
     </ul>
 	</nav>
 	<nav class="grid_3 gallery">
@@ -195,7 +195,7 @@ def footer(node):
       <li><a href="#pic05"><img src="/images/pages/pic05.jpg" alt=""></a></li>
       <li><a href="#pic06"><img src="/images/pages/pic06.jpg" alt=""></a></li>
       <li><a href="#pic09"><img src="/images/pages/pic09.jpg" alt=""></a></li>
-      <li><a href="#pic12"><img src="/images/pages/pic12.jpg" alt=""></a></li>
+      <li><a href="#pic10"><img src="/images/pages/pic10.jpg" alt=""></a></li>
       <li><a href="#pic13"><img src="/images/pages/pic13.jpg" alt=""></a></li>
     </ul>
 </nav>
