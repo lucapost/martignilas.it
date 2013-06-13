@@ -122,8 +122,7 @@ def header(node):
 	<!--[if IE 8]>    <html class="no-js lt-ie9" lang="'''+ lang + '''"> <![endif]-->
 	<!--[if gt IE 8]><!--> <html class="no-js" lang="''' + lang + '''"> <!--<![endif]-->
 	<head>
-        	<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    	<meta charset="utf-8" />
        	<meta name="author" content="''' + AUTHOR + '''" />
 	    <meta name="description" content="''' + description + '''" />
       	<title>''' + title + '''</title>
@@ -140,10 +139,10 @@ def header(node):
 			<header class="push_3 grid_18">
 					<div class="grid_1 alpha">&nbsp;</div>
 					<a href="/" title="home page">
-						<hgroup class="grid_8">
+						<div class="grid_8">
 							<h1>''' + SITE_NAME + '''</h1>
 							<h2>''' + desc + '''</h2>
-						</hgroup>
+						</div>
 					</a>
 					<nav class="grid_4 suffix_1">
 						''' + menu(node) + '''
