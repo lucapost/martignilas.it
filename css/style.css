@@ -235,8 +235,8 @@ figure li[id]:target a {
 
 footer {
 	margin: 20px 0 20px 0;
-	background: url(/images/ondasx.png) no-repeat 10px 50px, url(/images/ondadx.png) no-repeat 580px 50px, url(/images/op.png);
-	background-size: 120px 40px, 120px 40px, auto;
+	background: url(/images/ondasx.png) no-repeat 10px 30px, url(/images/ondadx.png) no-repeat 580px 30px, url(/images/op.png);
+	background-size: 120px 60px, 120px 60px, auto;
 	padding: 20px 0 20px 0;
 	text-align: center;
 }
