@@ -17,16 +17,16 @@ menu_code = ''
 PAGES = {
          SRC + "it/01_index.md": ("casa", "sito internet della casa vacanze Martignilas"),
 	 SRC + "it/10_alloggi.md": ("alloggi", "descrizione della casa"),
-	 SRC + "it/20_informazioni.md": ("info", "eventi e cose da visitare"),
+	 SRC + "it/20_informazioni.md": ("informazioni", "eventi e cose da visitare"),
 	 SRC + "it/30_contatti.md": ("contatti", "comunicare con il propietario"),
          SRC + "en/01_index.md": ("home", "Martignilas holidays home website"),
 	 SRC + "en/10_accomodation.md": ("accomodation", "description of building and offers"),
-	 SRC + "en/20_informations.md": ("info", "some informations about restaurant and museum"),
+	 SRC + "en/20_informations.md": ("informations", "some informations about restaurant and museum"),
 	 SRC + "en/30_contacts.md": ("contacts", "how you can contacs with we"),
          SRC + "de/01_index.md": ("haus", "Martignilas"),
-	 SRC + "de/10_unterkunft.md": ("unterkunft", "descrizione della casa"),
-	 SRC + "de/20_informationen.md": ("info", "eventi e cose da visitare"),
-	 SRC + "de/30_kontacte.md": ("kontacte", "comunicare con il propietario")
+	 SRC + "de/10_unterkunft.md": ("unterkunft", "Hausbeschreibung"),
+	 SRC + "de/20_informationen.md": ("informationen", "Ereignisse und Dinge zu sehen"),
+	 SRC + "de/30_kontacte.md": ("kontacte", "Kommunikation mit dem Besitzer")
 }
 
 current_time = datetime.datetime.now()
