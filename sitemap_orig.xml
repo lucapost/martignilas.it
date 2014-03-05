@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://martignilas.it/informationen.html</loc>
+    <lastmod>2014-03-05</lastmod>
+  </url>
+  <url>
     <loc>http://martignilas.it/index.html</loc>
-    <lastmod>2013-04-28</lastmod>
+    <lastmod>2014-03-05</lastmod>
   </url>
   <url>
     <loc>http://martignilas.it/unterkunft.html</loc>
-    <lastmod>2013-04-28</lastmod>
+    <lastmod>2014-03-05</lastmod>
   </url>
   <url>
     <loc>http://martignilas.it/kontacte.html</loc>
-    <lastmod>2013-04-28</lastmod>
-  </url>
-  <url>
-    <loc>http://martignilas.it/informationen.html</loc>
-    <lastmod>2013-05-03</lastmod>
+    <lastmod>2014-03-05</lastmod>
   </url>
 </urlset>

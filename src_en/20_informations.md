@@ -39,6 +39,6 @@ A few kilometers from the "Martignilas Holiday Home" you can visit some museums 
 
 You can reach, within a few kilometers:
 
-* butterfly house in Bordon, 25km, [www.farfalledibordano.it](sito della casa delle farfalle);
+* butterfly house in Bordano, 25km, [www.farfalledibordano.it](http://www.farfalledibordano.it/);
 * adventure park, Sella Nevea, 33Km.
 * Bovec, 35km entfernt, [www.bovec.si/](http://www.bovec.si/ "home page slovenian place").

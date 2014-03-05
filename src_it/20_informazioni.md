@@ -37,6 +37,6 @@ A pochi chilometri dalla struttura è possibile visitare alcuni musei e parchi, 
 
 É possibile raggiungere entro poche decine di chilometri:
 
-* casa delle farfalle di Bordano, 26km, [www.farfalledibordano.it](sito della casa delle farfalle);
+* casa delle farfalle di Bordano, 26km, [www.farfalledibordano.it](http://www.farfalledibordano.it/ "sito della casa delle farfalle");
 * parco avventura di Sella Nevea, 33Km;
 * Bovec, 35km entfernt, [www.bovec.si/](http://www.bovec.si/ "sito internet del comune sloveno").
