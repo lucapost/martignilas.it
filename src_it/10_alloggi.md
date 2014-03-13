@@ -5,7 +5,7 @@ La casa vacanze Martignilas mette a disposizione dei suoi ospiti 4/7 posti letto
 La struttura di 100mq circa si suddivide  su due piani:
 
 * piano terra: cucina con stufa economica a legna, salottino con caminetto, piccolo bagno;
-* piano superiore, una camera con letto matrimoniale e un letto a castello, unacameretta con un letto a castello, bagno con doccia, terrazzo.
+* piano superiore, una camera con letto matrimoniale e un letto a castello, una cameretta con un letto a castello, bagno con doccia, terrazzo.
 
 All'esterno sono  disponibili tavoli e sedie da giardino, lettini, doccia con acqua scaldata dal sole, barbeque.
 
