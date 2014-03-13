@@ -17,7 +17,7 @@ Durante il corso dell'anno sono numerose le iniziative proposte dalle molteplici
 * festa dell'aglio a Prato di Resia, 15 agosto, 5km;
 * carnevale resiano, febbraio;
 
-La  casa vacanze Martignilas può essere utilizzata  nostri ospiti anche come base di partenza per escursioni a piedi ed in bicicletta per i numerosi sentieri della Valle.
+La casa vacanze Martignilas può essere utilizzata dai nostri ospiti anche come base di partenza per escursioni a piedi ed in bicicletta per i numerosi sentieri della Valle.
 
 ### Parchi e musei
 
