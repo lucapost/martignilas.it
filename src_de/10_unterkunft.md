@@ -13,7 +13,9 @@ Auβerhalb gibt es Tische und Gartenstühle zu verfügung, so wie auch Liegen,wa
 
 Die Preise sind pro Tag und pro Person und hängen von der Saison ab:
 
-* € 18, für  April,Mai,Juni und September;
-* € 20, für  Juli und August.
+* €20, für April,Mai,Juni und September (Minimum 80 € pro Tag für 1 bis 4 Personen);
+* €22.50 für Juli und August.(Minimum 90 € pro Tag für 1 bis 4 Personen);
+
+* €30 Endreinigung (einmalig).
 
 Die Preise sind inklusiv von : Kabelfernsehen, Geschirr, Waschmaschine, Gasherd, elektrischer Ofen, Bettbezug, Handtücher, Decken und Gartenausstattung.
