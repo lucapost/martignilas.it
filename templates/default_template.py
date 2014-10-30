@@ -15,10 +15,10 @@ DST_EXT = "html"
 HIDDEN = set(["404.md", "privacy.md"])
 menu_code = ''
 PAGES = {
-         SRC + "it/01_index.md": ("casa", "sito internet della casa vacanze Martignilas"),
-	 SRC + "it/10_alloggi.md": ("alloggi", "descrizione della casa"),
-	 SRC + "it/20_informazioni.md": ("informazioni", "eventi e cose da visitare"),
-	 SRC + "it/30_contatti.md": ("contatti", "comunicare con il propietario"),
+         SRC + "it/01_index.md": ("casa", "Pagina principale del sito internet della Casa Vacanze Martignilas in Val Resia"),
+	 SRC + "it/10_alloggi.md": ("alloggi", "Descrizione degli alloggi della Casa Vacanze Martignilas in Val Resia"),
+	 SRC + "it/20_informazioni.md": ("informazioni", "Eventi ed attrattivita da visitare vicino alla Casa Vacanze Martignilas in Val Resia"),
+	 SRC + "it/30_contatti.md": ("contatti", "Come contattare il propietario della Casa Vacanze Martignilas in Val Resia"),
          SRC + "en/01_index.md": ("home", "Martignilas holidays home website"),
 	 SRC + "en/10_accomodation.md": ("accomodation", "description of building and offers"),
 	 SRC + "en/20_informations.md": ("informations", "some informations about restaurant and museum"),
