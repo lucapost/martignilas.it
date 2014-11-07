@@ -1,13 +1,17 @@
 generate: 
-	./minimalsite.py -t templates/default_template.py -s src_it -d .
-	./minimalsite.py -t templates/default_template.py -s src_en -d en
-	./minimalsite.py -t templates/default_template.py -s src_de -d de
+	./minimalsite.py -t templates/default_template.py -s src_it -d dst/
+	./minimalsite.py -t templates/default_template.py -s src_en -d dst/en
+	./minimalsite.py -t templates/default_template.py -s src_de -d dst/de
 
 update:
 	make
 	git add .
 	git commit -am fix
 	git push
+
+upload:
+	make
+	rsync -avr -e ssh ./dst/* flarevm:www/martignilas.it/
 
 clean:
 	find . -type f -name "*.html" -exec rm -f {} \;

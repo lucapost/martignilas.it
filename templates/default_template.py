@@ -4,7 +4,7 @@ import datetime
 SITE_NAME = "martignilas"
 AUTHOR = "lucapost"
 SRC = "/home/lucapost/repo/martignilas.it/src_"
-DST = "./"
+DST = "./dst/"
 SITEMAP = "sitemap_orig.xml"
 URL = "http://martignilas.it"
 PREFIX = "/"
@@ -57,10 +57,10 @@ def menu(node):
 def menu_(node, cur_node, node_prefix = PREFIX, indent = ''):
     """Auxiliary recursive function for menu generation."""
 
-    if node.page.dst_pathname == '/home/lucapost/repo/martignilas.it/de':
+    if node.page.dst_pathname == '/home/lucapost/repo/martignilas.it/dst/de':
       node_prefix = '/de/'
 
-    if node.page.dst_pathname == '/home/lucapost/repo/martignilas.it/en':
+    if node.page.dst_pathname == '/home/lucapost/repo/martignilas.it/dst/en':
       node_prefix = '/en/'
 
     global menu_code
