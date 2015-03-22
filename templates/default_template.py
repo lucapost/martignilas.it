@@ -94,11 +94,11 @@ def header(node):
     lang = 'it'
     imagebg = ''
 
-    if DST == '/home/lucapost/repo/martignilas.it/src_de':
+    if DST == '/home/lucapost/repo/martignilas.it/dst/de':
       desc = 'Ferienhaus in Val Resia'
       flagde = ' active'
       lang = 'de'
-    elif DST == '/home/lucapost/repo/martignilas.it/src_en':
+    elif DST == '/home/lucapost/repo/martignilas.it/dst/en':
       desc = 'Holidays house in Val Resia'
       flagen = ' active'
       lang = 'en'
