@@ -140,33 +140,36 @@ def header(node):
   		<script src="/assets/js/modernizr.js"></script>
 	</head>
 	<body id="top">
-		<div class="grid-container">
-			<header class="grid-50 mobile-grid-100">
+		<div class="grid-container box">
+			<header class="grid-40 mobile-grid-100">
 				<a href="/" title="home page">
 					<h1>''' + SITE_NAME + '''</h1>
 					<h2>''' + desc + '''</h2>
 				</a>
 			</header>
-					<nav class="grid_4 suffix_1">
-						''' + menu(node) + '''
-					</nav>
-					<figure class="flag">
-						<a href="/" title="italiano">
-							<img src="/images/flag_ita.png" alt="lingua italiana" class="grid_1''' + flagit + '''">
-						</a>
-						<a href="/en" title="english">
-							<img src="/images/flag_eng.png" alt="english language" class="grid_1''' + flagen + '''">
-						</a>
-						<a href="/de" title="deutsch">
-							<img src="/images/flag_deu.png" alt="deutch" class="grid_1''' + flagde + '''">
-						</a>
+			<nav class="grid-30 menu mobile-grid-100">
+				''' + menu(node) + '''
+			</nav>
+			<nav class="flag">
+				<a href="/" title="italiano">
+					<figure class="grid-10 mobile-grid-33">
+						<img src="/images/flag_ita.png" alt="lingua italiana" class="''' + flagit + '''">
 					</figure>
-					<div class="grid_1 omega">&nbsp;</div>
-		</header>
-		<div class="container_24">
-			<section class="push_3 grid_18">
-				<div class="grid_1 alpha">&nbsp;</div>
-				<article class="grid_10'''+ imagebg +'''">
+				</a>
+				<a href="/en" title="english">
+					<figure class="grid-10 mobile-grid-33">
+						<img src="/images/flag_eng.png" alt="english language" class="''' + flagen + '''">
+					</figure>
+				</a>
+				<a href="/de" title="deutsch">
+					<figure class="grid-10 mobile-grid-33">
+						<img src="/images/flag_deu.png" alt="deutch" class="''' + flagde + '''">
+					</figure>
+				</a>
+			</nav>
+		</div>
+		<div class="grid-container box">
+			<article class="grid-70 mobile-grid-100'''+ imagebg +'''">
 '''
 def footer(node):
     """Build the footer and return it to a string."""
@@ -175,30 +178,35 @@ def footer(node):
 
     html = '''\n</article>'''
     if linkname == 'casa' or linkname == 'haus' or linkname == 'home':
-	html += '''<figure class="grid_6"><img alt="ingresso della casa" src="/images/pages/casa_fronte.jpg" title="casa martignilas" class="casa"/></figure>'''
+	html += '''<figure class="grid-30 mobile-grid-100"><img alt="ingresso della casa" src="/images/pages/casa_fronte.jpg" title="casa martignilas" class="casa"/></figure>'''
     elif linkname == 'alloggi' or linkname == 'unterkunft' or linkname == 'accomodation':
-	html += '''<nav class="grid_3 gallery">
-    <ul>
+	html += '''<nav class="gallery">
+    <ul class="grid-10 mobile-grid-100">
       <li><a href="#pic00"><img src="/images/pages/pic00.jpg" alt=""></a></li>
-      <li><a href="#pic02"><img src="/images/pages/pic02.jpg" alt=""></a></li>
-      <li><a href="#pic04"><img src="/images/pages/pic04.jpg" alt=""></a></li>
-      <li><a href="#pic06"><img src="/images/pages/pic06.jpg" alt=""></a></li>
-      <li><a href="#pic08"><img src="/images/pages/pic08.jpg" alt=""></a></li>
-      <li><a href="#pic10"><img src="/images/pages/pic10.jpg" alt=""></a></li>
-      <li><a href="#pic12"><img src="/images/pages/pic12.jpg" alt=""></a></li>
-    </ul>
-	</nav>
-	<nav class="grid_3 gallery">
-    <ul>
       <li><a href="#pic01"><img src="/images/pages/pic01.jpg" alt=""></a></li>
+      <li><a href="#pic02"><img src="/images/pages/pic02.jpg" alt=""></a></li>
       <li><a href="#pic03"><img src="/images/pages/pic03.jpg" alt=""></a></li>
-      <li><a href="#pic05"><img src="/images/pages/pic05.jpg" alt=""></a></li>
-      <li><a href="#pic07"><img src="/images/pages/pic07.jpg" alt=""></a></li>
-      <li><a href="#pic09"><img src="/images/pages/pic09.jpg" alt=""></a></li>
-      <li><a href="#pic11"><img src="/images/pages/pic11.jpg" alt=""></a></li>
-      <li><a href="#pic13"><img src="/images/pages/pic13.jpg" alt=""></a></li>
+      <li><a href="#pic04"><img src="/images/pages/pic04.jpg" alt=""></a></li>
     </ul>
 </nav>
+<nav class="gallery">
+    <ul class="grid-10 mobile-grid-100">
+      <li><a href="#pic05"><img src="/images/pages/pic05.jpg" alt=""></a></li>
+      <li><a href="#pic06"><img src="/images/pages/pic06.jpg" alt=""></a></li>
+      <li><a href="#pic07"><img src="/images/pages/pic07.jpg" alt=""></a></li>
+      <li><a href="#pic09"><img src="/images/pages/pic09.jpg" alt=""></a></li>
+    </ul> 
+</nav>
+<nav class="gallery">
+    <ul class="grid-10 mobile-grid-100">
+      <li><a href="#pic10"><img src="/images/pages/pic10.jpg" alt=""></a></li>
+      <li><a href="#pic11"><img src="/images/pages/pic11.jpg" alt=""></a></li>
+      <li><a href="#pic12"><img src="/images/pages/pic12.jpg" alt=""></a></li>
+      <li><a href="#pic13"><img src="/images/pages/pic13.jpg" alt=""></a></li>
+      <li><a href="#pic13"><img src="/images/pages/pic13.jpg" alt=""></a></li>
+    </ul> 
+</nav>
+
 <figure>
 <ul>
       <li id="pic00"><a href="#home"><img src="/images/pages/pic00.jpg" alt=""></a></li>
@@ -218,25 +226,21 @@ def footer(node):
 </ul>
 </figure>'''
     elif linkname == 'info':
-	html += '''<figure class="grid_6"> <img class="logo" src="/images/pages/mappa_info.png" alt="mappa informazioni"/><img class="logo" src="/images/pages/logo_resia.jpg" alt="logo del comune di resia"/><img class="logo" src="/images/pages/logo_parco.jpg" alt="logo del comune di resia"/></figure>'''
+	html += '''<figure class=""> <img class="logo" src="/images/pages/mappa_info.png" alt="mappa informazioni"/><img class="logo" src="/images/pages/logo_resia.jpg" alt="logo del comune di resia"/><img class="logo" src="/images/pages/logo_parco.jpg" alt="logo del comune di resia"/></figure>'''
     elif linkname == 'contatti' or linkname == 'kontacte' or linkname == 'contacts':
-        html += '''<figure class="grid_6"><iframe width="230" height="230" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.it/maps?f=q&amp;source=s_q&amp;hl=it&amp;geocode=&amp;q=46.371158,13.318493&amp;aq=&amp;sll=46.371047,13.318278&amp;sspn=0.002158,0.004823&amp;t=h&amp;ie=UTF8&amp;ll=46.371155,13.31852&amp;spn=0.013621,0.019655&amp;z=14&amp;output=embed"></iframe></figure>'''
-    html += '''<div class="grid_1 omega">&nbsp;</div>
-			</section>
-			<div class="clear"></div>
+        html += '''<figure class="grid-40"><iframe width="auto" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.it/maps?f=q&amp;source=s_q&amp;hl=it&amp;geocode=&amp;q=46.371158,13.318493&amp;aq=&amp;sll=46.371047,13.318278&amp;sspn=0.002158,0.004823&amp;t=h&amp;ie=UTF8&amp;ll=46.371155,13.31852&amp;spn=0.013621,0.019655&amp;z=14&amp;output=embed"></iframe></figure>'''
+    html += '''
 		</div>
-		<div class="container_24">
-			<div class="push_3 grid_18">
-				<footer class="prefix_1 grid_16 suffix_1 alpha omega">
-                <p>email: <a href="mailto:patdilenardo@gmail.com">patdilenardo@gmail.com</a>; tel: +390432672131 (+393389456208)</p>
-                <p>Fraz. Martignilas n. 8, 33010 Resia, Udine - Italia</p>
-				<p>&copy; ''' + str(current_time.year) + ''' <a href="http://luca.postregna.name" title="lucapost blog">lucapost</a> | <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/">license</a> | <a href="/privacy.html">privacy</a> | edit: ''' + time.strftime("%Y%m%d %I:%M:%S %p", node.page.last_edit) + '''</p>
-				</footer>
-			</div>
-			<div class="clear"></div>
-		</div>	
-	  	<script src="/js/jquery.js"></script> 
-  		<script src="/js/hashgrid.js"></script>
+		<div class="grid-container box">
+			<footer>
+				<div class="grid-100 mobile-grid-100">
+                			<p>email: <a href="mailto:patdilenardo@gmail.com">patdilenardo@gmail.com</a>; tel: +390432672131 (+393389456208) <br/>
+                			Fraz. Martignilas n. 8, 33010 Resia, Udine - Italia</p>
+					<p>&copy; ''' + str(current_time.year) + ''' <a href="http://luca.postregna.name" title="lucapost blog">lucapost</a> <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/">license</a> | <a href="/privacy.html">privacy</a> <br/> edit: ''' + time.strftime("%Y%m%d %I:%M:%S %p", node.page.last_edit) + '''</p>
+				</div>
+			</footer>
+		</div>
+	  	<script src="/assets/js/jquery.js"></script> 
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-6164762-13']);
