@@ -12,6 +12,7 @@ update:
 upload:
 	make
 	rsync -avr -e ssh ./dst/* flarevm:www/martignilas.it/
+	rsync -avr -e ssh ./dst/* sun:/mnt/disk1/www/test.iulii.lii/
 
 clean:
 	find . -type f -name "*.html" -exec rm -f {} \;
