@@ -215,7 +215,7 @@ def footer(node):
 		</section>		
 </div>'''
     elif linkname == 'informazioni' or linkname == 'informationen' or linkname == 'informations':
-	html += '''<figure class="grid-40 mobile-grid-100"><img class="logo" src="/images/pages/mappa_info.png" alt="mappa informazioni"/><img class="logo" src="/images/pages/logo_resia.jpg" alt="logo del comune di resia"/><img class="logo" src="/images/pages/logo_parco.jpg" alt="logo del comune di resia"/></figure>'''
+	html += '''<figure class="grid-40 mobile-grid-100"><img class="logo" src="/images/pages/mappa_info.png" alt="mappa informazioni"/><img class="logo" src="http://upload.wikimedia.org/wikipedia/it/8/8b/Resia-Stemma.png" alt="logo del comune di resia"/><img class="logo" src="http://www.parcoprealpigiulie.it/public/image/LOGHI/Logo_Parco_naturale_delle_Prealpi_Giulie.jpg" alt="logo del comune di resia"/></figure>'''
     elif linkname == 'contatti' or linkname == 'kontacte' or linkname == 'contacts':
         html += '''<figure class="grid-40 mobile-grid-100">
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31257.008462646285!2d13.318498!3d46.371157!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDbCsDIyJzE2LjIiTiAxM8KwMTknMDYuNiJF!5e1!3m2!1sit!2sus!4v1427747375802" width="100%" height="400" frameborder="0" style="border:0"></iframe>
