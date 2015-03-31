@@ -222,9 +222,11 @@ def footer(node):
 		</div>
 		<div class="grid-container box">
 			<footer>
-				<div class="grid-100 mobile-grid-100">
+				<div class="grid-60 mobile-grid-100">
                 			<p>email: <a href="mailto:patdilenardo@gmail.com">patdilenardo@gmail.com</a>; tel: +390432672131 (+393389456208) <br/>
                 			Fraz. Martignilas n. 8, 33010 Resia, Udine - Italia</p>
+				</div>
+				<div class="grid-40 mobile-grid-100">
 					<p>&copy; ''' + str(current_time.year) + ''' <a href="http://luca.postregna.name" title="lucapost blog">lucapost</a> <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/">license</a> | <a href="/privacy.html">privacy</a> <br/> edit: ''' + time.strftime("%Y%m%d %I:%M:%S %p", node.page.last_edit) + '''</p>
 				</div>
 			</footer>
