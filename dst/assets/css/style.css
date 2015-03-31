@@ -160,10 +160,13 @@ nav.flag img.active {
 }
 
 figure img.casa,
-figure.gallery img,
 figure img.logo {
 	background: url('/images/op.png');
       	width: 100%;
+	margin-bottom: 20px;
+}
+
+iframe {
 	margin-bottom: 20px;
 }
 
