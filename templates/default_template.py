@@ -138,6 +138,13 @@ def header(node):
 		<![endif]-->
 		<link rel="stylesheet" type="text/css" media="all" href="/assets/css/style.css" />
   		<script src="/assets/js/modernizr.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<script src="/assets/js/slippry.min.js"></script>
+		<script src="/assets/js/slippryinit.js"></script>
+		<script src="//use.edgefonts.net/cabin;source-sans-pro:n2,i2,n3,n4,n6,n7,n9.js"></script>
+		<meta name="viewport" content="width=device-width">
+    		<link rel="stylesheet" href="/assets/css/demo.css">
+    		<link rel="stylesheet" href="/assets/css/slippry.css">
 	</head>
 	<body id="top">
 		<div class="grid-container box">
@@ -169,7 +176,7 @@ def header(node):
 			</nav>
 		</div>
 		<div class="grid-container box">
-			<article class="grid-70 mobile-grid-100'''+ imagebg +'''">
+			<article class="grid-60 mobile-grid-100'''+ imagebg +'''">
 '''
 def footer(node):
     """Build the footer and return it to a string."""
@@ -178,57 +185,39 @@ def footer(node):
 
     html = '''\n</article>'''
     if linkname == 'casa' or linkname == 'haus' or linkname == 'home':
-	html += '''<figure class="grid-30 mobile-grid-100"><img alt="ingresso della casa" src="/images/pages/casa_fronte.jpg" title="casa martignilas" class="casa"/></figure>'''
+	html += '''<div class="grid-40 mobile-grid-100"><figure class="fronte"><img alt="ingresso della casa" src="/images/pages/casa_fronte.jpg" title="casa martignilas" class="casa"/></figure></div>'''
     elif linkname == 'alloggi' or linkname == 'unterkunft' or linkname == 'accomodation':
-	html += '''<nav class="gallery">
-    <ul class="grid-10 mobile-grid-100">
-      <li><a href="#pic00"><img src="/images/pages/pic00.jpg" alt=""></a></li>
-      <li><a href="#pic01"><img src="/images/pages/pic01.jpg" alt=""></a></li>
-      <li><a href="#pic02"><img src="/images/pages/pic02.jpg" alt=""></a></li>
-      <li><a href="#pic03"><img src="/images/pages/pic03.jpg" alt=""></a></li>
-      <li><a href="#pic04"><img src="/images/pages/pic04.jpg" alt=""></a></li>
-    </ul>
-</nav>
-<nav class="gallery">
-    <ul class="grid-10 mobile-grid-100">
-      <li><a href="#pic05"><img src="/images/pages/pic05.jpg" alt=""></a></li>
-      <li><a href="#pic06"><img src="/images/pages/pic06.jpg" alt=""></a></li>
-      <li><a href="#pic07"><img src="/images/pages/pic07.jpg" alt=""></a></li>
-      <li><a href="#pic09"><img src="/images/pages/pic09.jpg" alt=""></a></li>
-    </ul> 
-</nav>
-<nav class="gallery">
-    <ul class="grid-10 mobile-grid-100">
-      <li><a href="#pic10"><img src="/images/pages/pic10.jpg" alt=""></a></li>
-      <li><a href="#pic11"><img src="/images/pages/pic11.jpg" alt=""></a></li>
-      <li><a href="#pic12"><img src="/images/pages/pic12.jpg" alt=""></a></li>
-      <li><a href="#pic13"><img src="/images/pages/pic13.jpg" alt=""></a></li>
-      <li><a href="#pic13"><img src="/images/pages/pic13.jpg" alt=""></a></li>
-    </ul> 
-</nav>
-
-<figure>
-<ul>
-      <li id="pic00"><a href="#home"><img src="/images/pages/pic00.jpg" alt=""></a></li>
-      <li id="pic01"><a href="#home"><img src="/images/pages/pic01.jpg" alt=""></a></li>
-      <li id="pic02"><a href="#home"><img src="/images/pages/pic02.jpg" alt=""></a></li>
-      <li id="pic03"><a href="#home"><img src="/images/pages/pic03.jpg" alt=""></a></li>
-      <li id="pic04"><a href="#home"><img src="/images/pages/pic04.jpg" alt=""></a></li>
-      <li id="pic05"><a href="#home"><img src="/images/pages/pic05.jpg" alt=""></a></li>
-      <li id="pic06"><a href="#home"><img src="/images/pages/pic06.jpg" alt=""></a></li>
-      <li id="pic07"><a href="#home"><img src="/images/pages/pic07.jpg" alt=""></a></li>
-      <li id="pic08"><a href="#home"><img src="/images/pages/pic08.jpg" alt=""></a></li>
-      <li id="pic09"><a href="#home"><img src="/images/pages/pic09.jpg" alt=""></a></li>
-      <li id="pic10"><a href="#home"><img src="/images/pages/pic10.jpg" alt=""></a></li>
-      <li id="pic11"><a href="#home"><img src="/images/pages/pic11.jpg" alt=""></a></li>
-      <li id="pic12"><a href="#home"><img src="/images/pages/pic12.jpg" alt=""></a></li>
-      <li id="pic13"><a href="#home"><img src="/images/pages/pic13.jpg" alt=""></a></li>
-</ul>
-</figure>'''
-    elif linkname == 'info':
-	html += '''<figure class=""> <img class="logo" src="/images/pages/mappa_info.png" alt="mappa informazioni"/><img class="logo" src="/images/pages/logo_resia.jpg" alt="logo del comune di resia"/><img class="logo" src="/images/pages/logo_parco.jpg" alt="logo del comune di resia"/></figure>'''
+	html += '''
+<div class="grid-40 gallery">
+		<section class="demo_wrapper">
+			<article class="demo_block">
+<!--				<a href="#glob" class='prev'>Prev</a> / <a href="#glob" class='next'>Next</a> 
+		|| <a href="#glob" class='init'>Init</a> | <a href="#glob" class='reset'>Destroy</a> | <a href="#glob" class='reload'>Reload</a>
+		|| <a href="#glob" class='stop'>Stop</a> | <a href="#glob" class='start'>Start</a> -->
+			<ul id="demo1">
+				<li><a href="#slide1"><img src="/images/pages/pic01.jpg" alt=""></a></li>
+				<li><a href="#slide2"><img src="/images/pages/pic02.jpg" alt=""></a></li>
+				<li><a href="#slide3"><img src="/images/pages/pic03.jpg" alt=""></a></li>
+				<li><a href="#slide4"><img src="/images/pages/pic04.jpg" alt=""></a></li>
+				<li><a href="#slide5"><img src="/images/pages/pic05.jpg" alt=""></a></li>
+				<li><a href="#slide6"><img src="/images/pages/pic06.jpg" alt=""></a></li>
+				<li><a href="#slide7"><img src="/images/pages/pic07.jpg" alt=""></a></li>
+				<li><a href="#slide8"><img src="/images/pages/pic08.jpg" alt=""></a></li>
+				<li><a href="#slide9"><img src="/images/pages/pic09.jpg" alt=""></a></li>
+				<li><a href="#slide10"><img src="/images/pages/pic10.jpg" alt=""></a></li>
+				<li><a href="#slide11"><img src="/images/pages/pic11.jpg" alt=""></a></li>
+				<li><a href="#slide12"><img src="/images/pages/pic12.jpg" alt=""></a></li>
+				<li><a href="#slide13"><img src="/images/pages/pic13.jpg" alt=""></a></li>
+			</ul>
+			</article>
+		</section>		
+</div>'''
+    elif linkname == 'informazioni' or linkname == 'informaionen' or linkname == 'informations':
+	html += '''<figure class="grid-40 mobile-grid-100"><img class="logo" src="/images/pages/mappa_info.png" alt="mappa informazioni"/><img class="logo" src="/images/pages/logo_resia.jpg" alt="logo del comune di resia"/><img class="logo" src="/images/pages/logo_parco.jpg" alt="logo del comune di resia"/></figure>'''
     elif linkname == 'contatti' or linkname == 'kontacte' or linkname == 'contacts':
-        html += '''<figure class="grid-40"><iframe width="auto" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.it/maps?f=q&amp;source=s_q&amp;hl=it&amp;geocode=&amp;q=46.371158,13.318493&amp;aq=&amp;sll=46.371047,13.318278&amp;sspn=0.002158,0.004823&amp;t=h&amp;ie=UTF8&amp;ll=46.371155,13.31852&amp;spn=0.013621,0.019655&amp;z=14&amp;output=embed"></iframe></figure>'''
+        html += '''<figure class="grid-40 mobile-grid-100">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31257.008462646285!2d13.318498!3d46.371157!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDbCsDIyJzE2LjIiTiAxM8KwMTknMDYuNiJF!5e1!3m2!1sit!2sus!4v1427747375802" width="100%" height="600" frameborder="0" style="border:0"></iframe>
+		</figure>'''
     html += '''
 		</div>
 		<div class="grid-container box">
@@ -240,7 +229,6 @@ def footer(node):
 				</div>
 			</footer>
 		</div>
-	  	<script src="/assets/js/jquery.js"></script> 
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-6164762-13']);

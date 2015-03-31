@@ -20,6 +20,13 @@
 		<![endif]-->
 		<link rel="stylesheet" type="text/css" media="all" href="/assets/css/style.css" />
   		<script src="/assets/js/modernizr.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<script src="/assets/js/slippry.min.js"></script>
+		<script src="/assets/js/slippryinit.js"></script>
+		<script src="//use.edgefonts.net/cabin;source-sans-pro:n2,i2,n3,n4,n6,n7,n9.js"></script>
+		<meta name="viewport" content="width=device-width">
+    		<link rel="stylesheet" href="/assets/css/demo.css">
+    		<link rel="stylesheet" href="/assets/css/slippry.css">
 	</head>
 	<body id="top">
 		<div class="grid-container box">
@@ -58,7 +65,7 @@
 			</nav>
 		</div>
 		<div class="grid-container box">
-			<article class="grid-70 mobile-grid-100 alloggi">
+			<article class="grid-60 mobile-grid-100 alloggi">
 <h3>Unterkunft</h3>
 <p>Das Ferienhaus Martignilas befügt für seine Gäste von 4 bis 7 Betten.</p>
 <p>Die 100 qm Struktur ist in zwei Stockwerke aufgeteilt:</p>
@@ -79,62 +86,41 @@
 </li>
 </ul>
 <p>Die Preise sind inklusiv von : Kabelfernsehen, Geschirr, Waschmaschine, Gasherd, elektrischer Ofen, Bettbezug, Handtücher, Decken und Gartenausstattung.</p>
-</article><nav class="gallery">
-    <ul class="grid-10 mobile-grid-100">
-      <li><a href="#pic00"><img src="/images/pages/pic00.jpg" alt=""></a></li>
-      <li><a href="#pic01"><img src="/images/pages/pic01.jpg" alt=""></a></li>
-      <li><a href="#pic02"><img src="/images/pages/pic02.jpg" alt=""></a></li>
-      <li><a href="#pic03"><img src="/images/pages/pic03.jpg" alt=""></a></li>
-      <li><a href="#pic04"><img src="/images/pages/pic04.jpg" alt=""></a></li>
-    </ul>
-</nav>
-<nav class="gallery">
-    <ul class="grid-10 mobile-grid-100">
-      <li><a href="#pic05"><img src="/images/pages/pic05.jpg" alt=""></a></li>
-      <li><a href="#pic06"><img src="/images/pages/pic06.jpg" alt=""></a></li>
-      <li><a href="#pic07"><img src="/images/pages/pic07.jpg" alt=""></a></li>
-      <li><a href="#pic09"><img src="/images/pages/pic09.jpg" alt=""></a></li>
-    </ul> 
-</nav>
-<nav class="gallery">
-    <ul class="grid-10 mobile-grid-100">
-      <li><a href="#pic10"><img src="/images/pages/pic10.jpg" alt=""></a></li>
-      <li><a href="#pic11"><img src="/images/pages/pic11.jpg" alt=""></a></li>
-      <li><a href="#pic12"><img src="/images/pages/pic12.jpg" alt=""></a></li>
-      <li><a href="#pic13"><img src="/images/pages/pic13.jpg" alt=""></a></li>
-      <li><a href="#pic13"><img src="/images/pages/pic13.jpg" alt=""></a></li>
-    </ul> 
-</nav>
-
-<figure>
-<ul>
-      <li id="pic00"><a href="#home"><img src="/images/pages/pic00.jpg" alt=""></a></li>
-      <li id="pic01"><a href="#home"><img src="/images/pages/pic01.jpg" alt=""></a></li>
-      <li id="pic02"><a href="#home"><img src="/images/pages/pic02.jpg" alt=""></a></li>
-      <li id="pic03"><a href="#home"><img src="/images/pages/pic03.jpg" alt=""></a></li>
-      <li id="pic04"><a href="#home"><img src="/images/pages/pic04.jpg" alt=""></a></li>
-      <li id="pic05"><a href="#home"><img src="/images/pages/pic05.jpg" alt=""></a></li>
-      <li id="pic06"><a href="#home"><img src="/images/pages/pic06.jpg" alt=""></a></li>
-      <li id="pic07"><a href="#home"><img src="/images/pages/pic07.jpg" alt=""></a></li>
-      <li id="pic08"><a href="#home"><img src="/images/pages/pic08.jpg" alt=""></a></li>
-      <li id="pic09"><a href="#home"><img src="/images/pages/pic09.jpg" alt=""></a></li>
-      <li id="pic10"><a href="#home"><img src="/images/pages/pic10.jpg" alt=""></a></li>
-      <li id="pic11"><a href="#home"><img src="/images/pages/pic11.jpg" alt=""></a></li>
-      <li id="pic12"><a href="#home"><img src="/images/pages/pic12.jpg" alt=""></a></li>
-      <li id="pic13"><a href="#home"><img src="/images/pages/pic13.jpg" alt=""></a></li>
-</ul>
-</figure>
+</article>
+<div class="grid-40 gallery">
+		<section class="demo_wrapper">
+			<article class="demo_block">
+<!--				<a href="#glob" class='prev'>Prev</a> / <a href="#glob" class='next'>Next</a> 
+		|| <a href="#glob" class='init'>Init</a> | <a href="#glob" class='reset'>Destroy</a> | <a href="#glob" class='reload'>Reload</a>
+		|| <a href="#glob" class='stop'>Stop</a> | <a href="#glob" class='start'>Start</a> -->
+			<ul id="demo1">
+				<li><a href="#slide1"><img src="/images/pages/pic01.jpg" alt=""></a></li>
+				<li><a href="#slide2"><img src="/images/pages/pic02.jpg" alt=""></a></li>
+				<li><a href="#slide3"><img src="/images/pages/pic03.jpg" alt=""></a></li>
+				<li><a href="#slide4"><img src="/images/pages/pic04.jpg" alt=""></a></li>
+				<li><a href="#slide5"><img src="/images/pages/pic05.jpg" alt=""></a></li>
+				<li><a href="#slide6"><img src="/images/pages/pic06.jpg" alt=""></a></li>
+				<li><a href="#slide7"><img src="/images/pages/pic07.jpg" alt=""></a></li>
+				<li><a href="#slide8"><img src="/images/pages/pic08.jpg" alt=""></a></li>
+				<li><a href="#slide9"><img src="/images/pages/pic09.jpg" alt=""></a></li>
+				<li><a href="#slide10"><img src="/images/pages/pic10.jpg" alt=""></a></li>
+				<li><a href="#slide11"><img src="/images/pages/pic11.jpg" alt=""></a></li>
+				<li><a href="#slide12"><img src="/images/pages/pic12.jpg" alt=""></a></li>
+				<li><a href="#slide13"><img src="/images/pages/pic13.jpg" alt=""></a></li>
+			</ul>
+			</article>
+		</section>		
+</div>
 		</div>
 		<div class="grid-container box">
 			<footer>
 				<div class="grid-100 mobile-grid-100">
                 			<p>email: <a href="mailto:patdilenardo@gmail.com">patdilenardo@gmail.com</a>; tel: +390432672131 (+393389456208) <br/>
                 			Fraz. Martignilas n. 8, 33010 Resia, Udine - Italia</p>
-					<p>&copy; 2015 <a href="http://luca.postregna.name" title="lucapost blog">lucapost</a> <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/">license</a> | <a href="/privacy.html">privacy</a> <br/> edit: 20141107 11:50:35 AM</p>
+					<p>&copy; 2015 <a href="http://luca.postregna.name" title="lucapost blog">lucapost</a> <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/">license</a> | <a href="/privacy.html">privacy</a> <br/> edit: 20150330 10:04:33 PM</p>
 				</div>
 			</footer>
 		</div>
-	  	<script src="/assets/js/jquery.js"></script> 
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-6164762-13']);
