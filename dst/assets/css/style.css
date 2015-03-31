@@ -14,6 +14,10 @@ p {
 	margin-bottom: 20px;
 }
 
+p.right {
+	text-align: right;
+}
+
 html, body {
         font-size: 20px;
         line-height: 30px;
