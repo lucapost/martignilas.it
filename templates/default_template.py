@@ -212,7 +212,7 @@ def footer(node):
 			</article>
 		</section>		
 </div>'''
-    elif linkname == 'informazioni' or linkname == 'informaionen' or linkname == 'informations':
+    elif linkname == 'informazioni' or linkname == 'informationen' or linkname == 'informations':
 	html += '''<figure class="grid-40 mobile-grid-100"><img class="logo" src="/images/pages/mappa_info.png" alt="mappa informazioni"/><img class="logo" src="/images/pages/logo_resia.jpg" alt="logo del comune di resia"/><img class="logo" src="/images/pages/logo_parco.jpg" alt="logo del comune di resia"/></figure>'''
     elif linkname == 'contatti' or linkname == 'kontacte' or linkname == 'contacts':
         html += '''<figure class="grid-40 mobile-grid-100">
