@@ -185,7 +185,7 @@ def footer(node):
 
     html = '''\n</article>'''
     if linkname == 'casa' or linkname == 'haus' or linkname == 'home':
-	html += '''<div class="grid-40 mobile-grid-100"><figure class="fronte"><img alt="ingresso della casa" src="/images/pages/11.jpg" title="casa martignilas" class="casa"/></figure></div>'''
+	html += '''<div class="grid-40 mobile-grid-100"><figure class="fronte"><img alt="ingresso della casa" src="/images/pages/10.jpg" title="casa martignilas" class="casa"/></figure></div>'''
     elif linkname == 'alloggi' or linkname == 'unterkunft' or linkname == 'accomodation':
 	html += '''
 <div class="grid-40 gallery">
@@ -211,7 +211,6 @@ def footer(node):
 				<li><a href="#slide1"><img src="/images/pages/14.jpg" alt=""></a></li>
 				<li><a href="#slide1"><img src="/images/pages/15.jpg" alt=""></a></li>
 				<li><a href="#slide1"><img src="/images/pages/16.jpg" alt=""></a></li>
-				<li><a href="#slide1"><img src="/images/pages/17.jpg" alt=""></a></li>
 			</ul>
 			</article>
 		</section>		
