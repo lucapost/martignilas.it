@@ -211,6 +211,13 @@ def footer(node):
 				<li><a href="#slide1"><img src="/images/pages/14.jpg" alt=""></a></li>
 				<li><a href="#slide1"><img src="/images/pages/15.jpg" alt=""></a></li>
 				<li><a href="#slide1"><img src="/images/pages/16.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/pages/17.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/pages/18.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/pages/19.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/pages/20.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/pages/21.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/pages/22.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/pages/23.jpg" alt=""></a></li>
 			</ul>
 			</article>
 		</section>		
