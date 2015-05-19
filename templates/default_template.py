@@ -32,7 +32,7 @@ PAGES = {
 current_time = datetime.datetime.now()
 
 def get_page_contents(node):
-    """Return page title and description from the global variable pages if a
+    """Return page title and description from the global variable slides_alloggi if a
     match with current node page.src_file is found.
     """  
     try:
@@ -185,7 +185,7 @@ def footer(node):
 
     html = '''\n</article>'''
     if linkname == 'casa' or linkname == 'haus' or linkname == 'home':
-	html += '''<div class="grid-40 mobile-grid-100"><figure class="fronte"><img alt="ingresso della casa" src="/images/pages/10.jpg" title="casa martignilas" class="casa"/></figure></div>'''
+	html += '''<div class="grid-40 mobile-grid-100"><figure class="fronte"><img alt="ingresso della casa" src="/images/slides_allo/10.jpg" title="casa martignilas" class="casa"/></figure></div>'''
     elif linkname == 'alloggi' or linkname == 'unterkunft' or linkname == 'accomodation':
 	html += '''
 <div class="grid-40 gallery">
@@ -195,35 +195,45 @@ def footer(node):
 		|| <a href="#glob" class='init'>Init</a> | <a href="#glob" class='reset'>Destroy</a> | <a href="#glob" class='reload'>Reload</a>
 		|| <a href="#glob" class='stop'>Stop</a> | <a href="#glob" class='start'>Start</a> -->
 			<ul id="demo1">
-				<li><a href="#slide1"><img src="/images/pages/01.jpg" alt=""></a></li>
-				<li><a href="#slide1"><img src="/images/pages/02.jpg" alt=""></a></li>
-				<li><a href="#slide1"><img src="/images/pages/03.jpg" alt=""></a></li>
-				<li><a href="#slide1"><img src="/images/pages/04.jpg" alt=""></a></li>
-				<li><a href="#slide1"><img src="/images/pages/05.jpg" alt=""></a></li>
-				<li><a href="#slide1"><img src="/images/pages/06.jpg" alt=""></a></li>
-				<li><a href="#slide1"><img src="/images/pages/07.jpg" alt=""></a></li>
-				<li><a href="#slide1"><img src="/images/pages/08.jpg" alt=""></a></li>
-				<li><a href="#slide1"><img src="/images/pages/09.jpg" alt=""></a></li>
-				<li><a href="#slide1"><img src="/images/pages/10.jpg" alt=""></a></li>
-				<li><a href="#slide1"><img src="/images/pages/11.jpg" alt=""></a></li>
-				<li><a href="#slide1"><img src="/images/pages/12.jpg" alt=""></a></li>
-				<li><a href="#slide1"><img src="/images/pages/13.jpg" alt=""></a></li>
-				<li><a href="#slide1"><img src="/images/pages/14.jpg" alt=""></a></li>
-				<li><a href="#slide1"><img src="/images/pages/15.jpg" alt=""></a></li>
-				<li><a href="#slide1"><img src="/images/pages/16.jpg" alt=""></a></li>
-				<li><a href="#slide1"><img src="/images/pages/17.jpg" alt=""></a></li>
-				<li><a href="#slide1"><img src="/images/pages/18.jpg" alt=""></a></li>
-				<li><a href="#slide1"><img src="/images/pages/19.jpg" alt=""></a></li>
-				<li><a href="#slide1"><img src="/images/pages/20.jpg" alt=""></a></li>
-				<li><a href="#slide1"><img src="/images/pages/21.jpg" alt=""></a></li>
-				<li><a href="#slide1"><img src="/images/pages/22.jpg" alt=""></a></li>
-				<li><a href="#slide1"><img src="/images/pages/23.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/slides_allo/01.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/slides_allo/02.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/slides_allo/03.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/slides_allo/04.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/slides_allo/05.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/slides_allo/06.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/slides_allo/07.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/slides_allo/08.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/slides_allo/09.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/slides_allo/10.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/slides_allo/11.jpg" alt=""></a></li>
 			</ul>
 			</article>
 		</section>		
 </div>'''
     elif linkname == 'informazioni' or linkname == 'informationen' or linkname == 'informations':
-	html += '''<figure class="grid-40 mobile-grid-100"><img class="logo" src="/images/pages/mappa_info.png" alt="mappa informazioni"/><img class="logo" src="http://upload.wikimedia.org/wikipedia/it/8/8b/Resia-Stemma.png" alt="logo del comune di resia"/><img class="logo" src="http://www.parcoprealpigiulie.it/public/image/LOGHI/Logo_Parco_naturale_delle_Prealpi_Giulie.jpg" alt="logo del comune di resia"/></figure>'''
+#	html += '''<figure class="grid-40 mobile-grid-100"><img class="logo" src="/images/slides_alloggi/mappa_info.png" alt="mappa informazioni"/><!--<img class="logo" src="http://upload.wikimedia.org/wikipedia/it/8/8b/Resia-Stemma.png" alt="logo del comune di resia"/><img class="logo" src="http://www.parcoprealpigiulie.it/public/image/LOGHI/Logo_Parco_naturale_delle_Prealpi_Giulie.jpg" alt="logo del comune di resia"/>--></figure>'''
+	html += '''
+<div class="grid-40 gallery">
+		<section class="demo_wrapper">
+			<article class="demo_block">
+			<ul id="demo1">
+				<li><a href="#slide1"><img src="/images/slides_info/12.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/slides_info/13.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/slides_info/14.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/slides_info/15.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/slides_info/16.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/slides_info/17.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/slides_info/18.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/slides_info/19.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/slides_info/20.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/slides_info/21.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/slides_info/22.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/slides_info/23.jpg" alt=""></a></li>
+			</ul>
+			</article>
+		</section>		
+</div>
+'''
     elif linkname == 'contatti' or linkname == 'kontacte' or linkname == 'contacts':
         html += '''<figure class="grid-40 mobile-grid-100">
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31257.008462646285!2d13.318498!3d46.371157!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDbCsDIyJzE2LjIiTiAxM8KwMTknMDYuNiJF!5e1!3m2!1sit!2sus!4v1427747375802" width="100%" height="400" frameborder="0" style="border:0"></iframe>
