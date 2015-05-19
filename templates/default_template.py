@@ -188,7 +188,7 @@ def footer(node):
 	html += '''<div class="grid-40 mobile-grid-100"><figure class="fronte"><img alt="ingresso della casa" src="/images/slides_allo/10.jpg" title="casa martignilas" class="casa"/></figure></div>'''
     elif linkname == 'alloggi' or linkname == 'unterkunft' or linkname == 'accomodation':
 	html += '''
-<div class="grid-40 gallery">
+<div class="grid-40 mobile-grid-100 gallery">
 		<section class="demo_wrapper">
 			<article class="demo_block">
 <!--				<a href="#glob" class='prev'>Prev</a> / <a href="#glob" class='next'>Next</a> 
@@ -213,7 +213,7 @@ def footer(node):
     elif linkname == 'informazioni' or linkname == 'informationen' or linkname == 'informations':
 #	html += '''<figure class="grid-40 mobile-grid-100"><img class="logo" src="/images/slides_alloggi/mappa_info.png" alt="mappa informazioni"/><!--<img class="logo" src="http://upload.wikimedia.org/wikipedia/it/8/8b/Resia-Stemma.png" alt="logo del comune di resia"/><img class="logo" src="http://www.parcoprealpigiulie.it/public/image/LOGHI/Logo_Parco_naturale_delle_Prealpi_Giulie.jpg" alt="logo del comune di resia"/>--></figure>'''
 	html += '''
-<div class="grid-40 gallery">
+<div class="grid-40 mobile-grid-100 gallery">
 		<section class="demo_wrapper">
 			<article class="demo_block">
 			<ul id="demo1">
