@@ -9,9 +9,9 @@ update:
 	git commit -am fix
 	git push
 
-upload:
+vultr:
+	rsync -avr -e ssh ./dst/* vultr:www/martignilas.it/
 	make
-	rsync -avr -e ssh ./dst/* flarevm:www/martignilas.it/
 #	rsync -avr -e ssh ./dst/* flarevm:www/test.martignilas.it/
 #	rsync -avr -e ssh ./dst/* sun:/mnt/disk1/www/test.iulii.lii/
 
