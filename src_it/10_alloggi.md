@@ -14,7 +14,7 @@ All'esterno sono  disponibili tavoli e sedie da giardino, lettini, doccia con
 * Aprile - Maggio - Settembre - Ottobre (da 1 a 4 persone) € 80
 * Giugno (minimo da 1 a 4 persone) € 90
 * Luglio  (minimo da 1 a  4 persone) € 100
-* Agosto (minimo da 1 a 4 persone) €110
+* Agosto (minimo da 1 a 4 persone) € 110
 * € 20, per ogni persona in più oltre le 4 
 * € 30, per pulizie finali
 * pernottamento minimo 2 notti
