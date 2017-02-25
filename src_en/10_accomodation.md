@@ -13,9 +13,12 @@ Outside there are tables and garden chairs, sunbeds, shower with water heated by
 
 Prices per person for a single night, depending on the season:
 
-* €20 for the months of april, may, june and september (minimum € 80 per day for 1 to 4 people);
-* €22.50 for the months of july and august (minimum € 90 per day for 1 to 4 people);
-
-* €30 final cleaning fee (one time).
+* April - May - September - October  (1 to 4 persons) €80
+* June (minimum 1 to 4 people) €90
+* July (minimum 1 to 4 people) €100
+* August (minimum 1 to 4 people) €110
+* € 20, each additional person over 4
+* € 30, for  final cleaning
+* minimum stay 2 nights
 
 The price includes: satellite TV, crockery, washing machine, gas cooker, electric oven, sheets, towels, blankets, garden furniture. Utilities.

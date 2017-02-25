@@ -244,7 +244,7 @@ def footer(node):
 		<div class="grid-container box">
 			<footer>
 				<div class="grid-60 mobile-grid-100">
-                			<p>email: <a href="mailto:patdilenardo@gmail.com">patdilenardo@gmail.com</a>; tel: +390432672131 (+393389456208) <br/>
+                			<p>email: <a href="mailto:patdilenardo@gmail.com">patdilenardo@gmail.com</a>; tel: +393389456208 <br/>
                 			Fraz. Martignilas n. 8, 33010 Resia, Udine - Italia</p>
 				</div>
 				<div class="grid-40 mobile-grid-100">
