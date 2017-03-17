@@ -10,7 +10,7 @@ update:
 	git push
 
 vultr:
-	rsync -avr -e ssh ./dst/* vultr:www/martignilas.it/
+	rsync -avr -e ssh ./dst/* linode:www/martignilas.it/
 
 clean:
 	find . -type f -name "*.html" -exec rm -f {} \;
