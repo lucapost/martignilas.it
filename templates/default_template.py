@@ -206,7 +206,7 @@ def footer(node):
 				<li><a href="#slide1"><img src="/images/slides_allo/09.jpg" alt=""></a></li>
 				<li><a href="#slide1"><img src="/images/slides_allo/10.jpg" alt=""></a></li>
 				<li><a href="#slide1"><img src="/images/slides_allo/11.jpg" alt=""></a></li>
-				<li><a href="#slide1"><img src="/images/slides_allo/12.jpg" alt=""></a></li>
+		<!--		<li><a href="#slide1"><img src="/images/slides_allo/12.jpg" alt=""></a></li> -->
 			</ul>
 			</article>
 		</section>		

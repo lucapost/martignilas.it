@@ -9,7 +9,7 @@ update:
 	git commit -am fix
 	git push
 
-vultr:
+upload:
 	rsync -avr -e ssh ./dst/* linode:www/martignilas.it/
 
 clean:
