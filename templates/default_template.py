@@ -138,7 +138,7 @@ def header(node):
 		<![endif]-->
 		<link rel="stylesheet" type="text/css" media="all" href="/assets/css/style.css" />
   		<script src="/assets/js/modernizr.js"></script>
-		<script src="ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 		<script src="/assets/js/slippry.min.js"></script>
 		<script src="/assets/js/slippryinit.js"></script>
 		<script src="//use.edgefonts.net/cabin;source-sans-pro:n2,i2,n3,n4,n6,n7,n9.js"></script>
@@ -191,7 +191,7 @@ def footer(node):
 <div class="grid-40 mobile-grid-100 gallery">
 		<section class="demo_wrapper">
 			<article class="demo_block">
-<!--				<a href="#glob" class='prev'>Prev</a> / <a href="#glob" class='next'>Next</a> 
+<!--				<a href="#glob" class='prev'>Prev</a> / <a href="#glob" class='next'>Next</a>
 		|| <a href="#glob" class='init'>Init</a> | <a href="#glob" class='reset'>Destroy</a> | <a href="#glob" class='reload'>Reload</a>
 		|| <a href="#glob" class='stop'>Stop</a> | <a href="#glob" class='start'>Start</a> -->
 			<ul id="demo1">
@@ -206,9 +206,10 @@ def footer(node):
 				<li><a href="#slide1"><img src="/images/slides_allo/09.jpg" alt=""></a></li>
 				<li><a href="#slide1"><img src="/images/slides_allo/10.jpg" alt=""></a></li>
 				<li><a href="#slide1"><img src="/images/slides_allo/11.jpg" alt=""></a></li>
+				<li><a href="#slide1"><img src="/images/slides_allo/12.jpg" alt=""></a></li>
 			</ul>
 			</article>
-		</section>		
+		</section>
 </div>'''
     elif linkname == 'informazioni' or linkname == 'informationen' or linkname == 'informations':
 #	html += '''<figure class="grid-40 mobile-grid-100"><img class="logo" src="/images/slides_alloggi/mappa_info.png" alt="mappa informazioni"/><!--<img class="logo" src="http://upload.wikimedia.org/wikipedia/it/8/8b/Resia-Stemma.png" alt="logo del comune di resia"/><img class="logo" src="http://www.parcoprealpigiulie.it/public/image/LOGHI/Logo_Parco_naturale_delle_Prealpi_Giulie.jpg" alt="logo del comune di resia"/>--></figure>'''
